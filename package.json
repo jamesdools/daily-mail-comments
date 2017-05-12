@@ -1,0 +1,28 @@
+{
+  "name": "news-comments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "",
+    "start": "NODE_ENV=dev node app.js",
+    "watch": "NODE_ENV=dev nodemon app.js",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/language": "^0.10.3",
+    "async": "^2.4.0",
+    "config": "^1.26.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-iplayer-es6": "^3.1.0",
+    "eslint-plugin-mocha": "^4.9.0"
+  },
+  "eslintConfig": {
+    "extends": "iplayer-es6"
+  }
+}

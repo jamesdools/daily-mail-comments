@@ -1,0 +1,6 @@
+{
+  "gcp": {
+    "projectId": "YOUR-PROJECT-ID",
+    "keyFilename": "YOUR-KEYFILE-PATH"
+  }
+}
