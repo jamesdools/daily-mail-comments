@@ -13,9 +13,10 @@ function getArticleId(url) {
 
 function getComments(url, cb) {
   const articleId = getArticleId(url);
-  const commentsUrl = `http://www.dailymail.co.uk/reader-comments/p/asset/readcomments/${articleId}`;
+  const commentCount = 50;
+  const commentsUrl = `http://www.dailymail.co.uk/reader-comments/p/asset/readcomments/${articleId}?max=${commentCount}`;
 
-  client(commentsUrl, cb);
+  client.get(commentsUrl, cb);
 }
 
 module.exports = (url) => {
@@ -28,5 +29,5 @@ module.exports = (url) => {
   });
 };
 
-// const url = 'http://www.dailymail.co.uk/news/article-4493596/Labour-s-manifesto-Britain-1970s.html';
-// module.exports(url);
+const url = 'http://www.dailymail.co.uk/news/article-4493596/Labour-s-manifesto-Britain-1970s.html';
+module.exports(url);

@@ -2,7 +2,7 @@
 
 const request = require('request');
 
-module.exports = (url, cb) => {
+module.exports.get = (url, cb) => {
   const opts = {
     url: url,
     headers: {
@@ -17,3 +17,4 @@ module.exports = (url, cb) => {
     cb(null, JSON.parse(body));
   });
 };
+

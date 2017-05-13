@@ -33,7 +33,7 @@ module.exports = (comments) => {
 
       count++;
       if (count === comments.length) {
-        fs.writeFileSync('test/fixtures/annotated-comments.json', JSON.stringify(annotatedData));
+        fs.writeFileSync(`test/fixtures/annotated-comments-${comment.assetId}.json`, JSON.stringify(annotatedData));
       }
     });
   });
