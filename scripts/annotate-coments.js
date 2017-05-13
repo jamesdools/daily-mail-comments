@@ -3,40 +3,74 @@
 const fs = require('fs');
 const languageClient = require('../src/language-client');
 
-function annotate(comment) {
+function mapComment(comment, annotations) {
+  return {
+    message: comment.message,
+    id: comment.id,
+    assetId: comment.assetId,
+    assetUrl: comment.assetUrl,
+    assetHeadline: comment.assetHeadline,
+    voteRating: comment.voteRating,
+    voteCount: comment.voteCount,
+    entities: annotations.entities,
+    sentiment: annotations.sentiment,
+    sentences: annotations.sentences
+  };
+}
+
+function annotateComment(comment) {
   return new Promise((res, rej) => {
     languageClient.annotate(comment, (err, results) => {
       if (err) {
         rej(err);
       } else {
-        res(results);
+        res(mapComment(comment, results));
       }
     });
   });
 }
 
-module.exports = (comments) => {
+function annotateComments(comments) {
+  return Promise.all(comments.map(annotateComment));
+}
 
-  const annotateAndLink = (comment) => {
-    return annotate(comment).then((results) => {
-      results.original_text = comment.message;
-      return results;
+function annotateCommentAndReply(comment) {
+  return Promise.all([
+    annotateComment(comment),
+    annotateComments(comment.replies.comments)
+  ]).then((annotated) => {
+    const [annotatedComment, annotatedReplies] = annotated;
+    annotatedComment.replies = annotatedReplies;
+    return annotatedComment;
+  });
+}
+
+function createFileWriter(filename) {
+  return (body) => {
+    return new Promise((res, rej) => {
+      fs.writeFile(filename, body, (err) => {
+        if (err) {
+          rej(err);
+        } else {
+          res();
+        }
+      });
     });
   };
+}
 
-  const getAnnotations = Promise.all(comments.map(annotateAndLink));
-
-  getAnnotations
-    .then((annotations) => {
-      fs.writeFileSync(
-        'test/fixtures/annotated-comments.json',
-        JSON.stringify(annotations)
-      );
-    })
-    .catch((err) => {
-      console.log(err);
-    });
+module.exports = (comments) => {
+  return Promise.all(comments.map(annotateCommentAndReply));
 };
 
 const comments = require('../test/fixtures/top-comments-4493596');
-module.exports(comments);
+const writeFixture = createFileWriter('test/fixtures/annotated-comments.json');
+const serialiseAnnotations = (annotations) => JSON.stringify(annotations);
+
+module.exports(comments)
+  .then(serialiseAnnotations)
+  .then(writeFixture)
+  .catch((err) => {
+    console.log(err);
+  });
+
