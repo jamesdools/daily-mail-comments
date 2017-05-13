@@ -1,6 +1,7 @@
 'use strict';
 
-const wordCloud = require('./src/wordCloud');
+const analysis = require('./src/analysis');
 const annotatedComments = require('./test/fixtures/annotated-comments-4493596');
 
-console.log(wordCloud.generate(annotatedComments));
+console.log(analysis.generateWordcloud(annotatedComments));
+console.log(analysis.overallSentiment(annotatedComments));
