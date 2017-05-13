@@ -22,6 +22,7 @@ function annotateComment(comment) {
   return new Promise((res, rej) => {
     languageClient.annotate(comment, (err, results) => {
       if (err) {
+        console.log('ERROR');
         rej(err);
       } else {
         res(mapComment(comment, results));
@@ -60,17 +61,16 @@ function createFileWriter(filename) {
 }
 
 module.exports = (comments) => {
-  return Promise.all(comments.map(annotateCommentAndReply));
+  const serialiseAnnotations = (annotations) => JSON.stringify(annotations);
+  const writeFixture = createFileWriter(
+    `test/fixtures/annotated-comments-${comments[0].assetId}.json`
+  );
+  return Promise.all(comments.map(annotateCommentAndReply))
+    .then(serialiseAnnotations)
+    .then(writeFixture);
 };
 
 const comments = require('../test/fixtures/top-comments-4493596');
-const writeFixture = createFileWriter('test/fixtures/annotated-comments.json');
-const serialiseAnnotations = (annotations) => JSON.stringify(annotations);
 
-module.exports(comments)
-  .then(serialiseAnnotations)
-  .then(writeFixture)
-  .catch((err) => {
-    console.log(err);
-  });
+module.exports(comments).catch((err) => console.log(err));
 
