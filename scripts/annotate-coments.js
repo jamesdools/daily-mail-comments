@@ -3,22 +3,40 @@
 const fs = require('fs');
 const languageClient = require('../src/language-client');
 
-module.exports = (comments) => {
-  const annotatedData = [];
-
-  comments.forEach((comment) => {
+function annotate(comment) {
+  return new Promise((res, rej) => {
     languageClient.annotate(comment, (err, results) => {
       if (err) {
-        console.log(err);
+        rej(err);
       } else {
-        results.original_text = comment.message;
-        annotatedData.push(results);
+        res(results);
       }
     });
   });
+}
 
-  fs.writeFileSync('test/fixtures/annotated-comments.json', JSON.parse(annotatedData));
+module.exports = (comments) => {
+
+  const annotateAndLink = (comment) => {
+    return annotate(comment).then((results) => {
+      results.original_text = comment.message;
+      return results;
+    });
+  };
+
+  const getAnnotations = Promise.all(comments.map(annotateAndLink));
+
+  getAnnotations
+    .then((annotations) => {
+      fs.writeFileSync(
+        'test/fixtures/annotated-comments.json',
+        JSON.stringify(annotations)
+      );
+    })
+    .catch((err) => {
+      console.log(err);
+    });
 };
 
-// const comments = require('./test/fixtures/top-comments-4493596');
-// module.exports(comments);
+const comments = require('../test/fixtures/top-comments-4493596');
+module.exports(comments);
