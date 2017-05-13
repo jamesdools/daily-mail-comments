@@ -34,7 +34,7 @@ function annotateComments(comments) {
   return Promise.all(comments.map(annotateComment));
 }
 
-function annotateCommentAndReply(comment) {
+function annotateCommentAndReplies(comment) {
   return Promise.all([
     annotateComment(comment),
     annotateComments(comment.replies.comments)
@@ -64,7 +64,7 @@ module.exports = (comments) => {
   const writeFixture = createFileWriter(
     `test/fixtures/annotated-comments-${comments[0].assetId}.json`
   );
-  return Promise.all(comments.map(annotateCommentAndReply))
+  return Promise.all(comments.map(annotateCommentAndReplies))
     .then(serialiseAnnotations)
     .then(writeFixture);
 };
