@@ -22,7 +22,6 @@ function annotateComment(comment) {
   return new Promise((res, rej) => {
     languageClient.annotate(comment, (err, results) => {
       if (err) {
-        console.log('ERROR');
         rej(err);
       } else {
         res(mapComment(comment, results));
