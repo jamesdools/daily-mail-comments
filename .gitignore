@@ -2,3 +2,4 @@ node_modules
 config/keyfile.json
 config/dev.json
 *.log
+.DS_Store
