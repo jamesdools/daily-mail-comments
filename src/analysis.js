@@ -3,25 +3,26 @@
 const _ = require('lodash');
 
 module.exports.generateWordcloud = (data) => {
-  const wordCloud = {};
+  const wordCloud = [];
 
   data.forEach((comment) => {
     comment.entities.forEach((entity) => {
-      if (!wordCloud[entity.name]) {
-        wordCloud[entity.name] = {
-          count: 1,
+      if (!_.find(wordCloud, {name: entity.name})) {
+        wordCloud.push({
+          name: entity.name,
           type: entity.type,
           metadata: entity.metadata,
-          salience: entity.salience
-        }
+          salience: entity.salience,
+          count: 1
+        });
       }
       else {
-        wordCloud[entity.name].count++;
+        _.find(wordCloud, {name: entity.name}).count++;
       }
     });
   });
 
-  return wordCloud;
+  return _.sortBy(wordCloud, 'count').reverse();
 }
 
 module.exports.overallSentiment = (data) => {
