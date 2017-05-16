@@ -25,6 +25,22 @@ module.exports.generateWordcloud = (data) => {
   return _.sortBy(wordCloud, 'count').reverse();
 }
 
+module.exports.lowestRatedComments = (data) => {
+  const orderedData = _.sortBy(data, (comment) => {
+    return voteScore(comment.voteRating, comment.voteCount);
+  });
+
+  return orderedData.slice(0, 10);
+}
+
+module.exports.highestRatedComments = (data) => {
+  const orderedData = _.sortBy(data, (comment) => {
+    return voteScore(comment.voteRating, comment.voteCount);
+  }).reverse();
+
+  return orderedData.slice(0, 10);
+}
+
 module.exports.overallSentiment = (data) => {
   const MAX = 2;
 
@@ -48,18 +64,10 @@ function voteScore(voteRating, voteCount) {
   return (voteRating / voteCount) * 100; //TODO: handle +/-
 }
 
-module.exports.lowestRatedComments = (data) => {
-    const orderedData = _.sortBy(data, (comment) => {
-      return voteScore(comment.voteRating, comment.voteCount);
-    });
-
-    return orderedData.slice(0, 10);
+module.exports.lowestSentimentComments = (data) => {
+  return _.sortBy(data, 'sentiment.score').slice(0, 10);
 }
 
-module.exports.highestRatedComments = (data) => {
-    const orderedData = _.sortBy(data, (comment) => {
-      return voteScore(comment.voteRating, comment.voteCount);
-    }).reverse();
-
-    return orderedData.slice(0, 10);
+module.exports.highestSentimentComments = (data) => {
+  return _.sortBy(data, 'sentiment.score').reverse().slice(0, 10);
 }
