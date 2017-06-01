@@ -13,10 +13,13 @@ function getArticleId(url) {
 
 function getComments(url, cb) {
   const articleId = getArticleId(url);
+  const commentsUrl = `http://www.dailymail.co.uk/reader-comments/p/asset/readcomments/${articleId}`;
   const commentCount = 50;
-  const commentsUrl = `http://www.dailymail.co.uk/reader-comments/p/asset/readcomments/${articleId}?max=${commentCount}`;
+  const qs = {
+    max: commentCount
+  };
 
-  client.get(commentsUrl, cb);
+  client.get(commentsUrl, qs, cb);
 }
 
 module.exports = (url) => {
@@ -25,7 +28,7 @@ module.exports = (url) => {
 
     const comments = res.payload.page;
 
-    fs.writeFileSync(`test/fixtures/top-comments-${res.payload.assetId}.json`, JSON.stringify(comments));
+    fs.writeFileSync(`test/fixtures/dm-comments-${res.payload.assetId}.json`, JSON.stringify(comments));
   });
 };
 

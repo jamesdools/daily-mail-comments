@@ -69,7 +69,7 @@ module.exports = (comments) => {
     .then(writeFixture);
 };
 
-const comments = require('../test/fixtures/top-comments-4493596');
 
+const dailyMailComments = require('../test/fixtures/dm-comments-4493596');
 module.exports(comments).catch((err) => console.log(err));
 

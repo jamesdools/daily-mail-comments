@@ -2,9 +2,10 @@
 
 const request = require('request');
 
-module.exports.get = (url, cb) => {
+module.exports.get = (url, qs, cb) => {
   const opts = {
     url: url,
+    qs: qs,
     headers: {
       'Content-Type': 'application/json'
     }

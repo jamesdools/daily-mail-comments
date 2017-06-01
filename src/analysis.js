@@ -60,8 +60,20 @@ module.exports.overallSentiment = (data) => {
   return overallSentiment;
 };
 
+// function maxSentimentMagnitude(data) {
+//   return _.maxBy(data, (comment) => {
+//     return comment.sentiment.magnitude;
+//   });
+// }
+//
+// function normaliseSentimentMagnitude(data) {
+//   const max = maxSentimentMagnitude()
+//
+// }
+//
+
 function voteScore(voteRating, voteCount) {
-  return (voteRating / voteCount) * 100; //TODO: handle +/-
+  if (voteCount > 0) return (voteRating / voteCount) * 100; //TODO: handle +/-
 }
 
 module.exports.lowestSentimentComments = (data) => {
