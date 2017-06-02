@@ -6,23 +6,17 @@ const languageClient = require('@google-cloud/language')(config.gcp);
 
 module.exports.getEntities = (comment, cb) => {
   // TODO: some pre-processing
-  const data = comment.message;
-
-  languageClient.detectEntities(data, cb);
+  languageClient.detectEntities(comment, cb);
 };
 
 module.exports.getSentiment = (comment, cb) => {
   // TODO: some pre-processing
-  const data = comment.message;
-
-  languageClient.detectSentiment(data, cb);
+  languageClient.detectSentiment(comment, cb);
 };
 
 module.exports.annotate = (comment, cb) => {
   // TODO: some pre-processing
-  const data = comment.message;
-
-  languageClient.annotate(data, cb);
+  languageClient.annotate(comment, cb);
 };
 
 // module.exports.getEntitySentiment = (comment, cb) => {

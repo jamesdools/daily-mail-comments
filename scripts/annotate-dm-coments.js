@@ -20,7 +20,7 @@ function mapComment(comment, annotations) {
 
 function annotateComment(comment) {
   return new Promise((res, rej) => {
-    languageClient.annotate(comment, (err, results) => {
+    languageClient.annotate(comment.message, (err, results) => {
       if (err) {
         rej(err);
       } else {
@@ -62,7 +62,7 @@ function createFileWriter(filename) {
 module.exports = (comments) => {
   const serialiseAnnotations = (annotations) => JSON.stringify(annotations);
   const writeFixture = createFileWriter(
-    `test/fixtures/annotated-comments-${comments[0].assetId}.json`
+    `test/fixtures/annotated-dm-comments-${comments[0].assetId}.json`
   );
   return Promise.all(comments.map(annotateCommentAndReplies))
     .then(serialiseAnnotations)

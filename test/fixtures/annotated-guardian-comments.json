@@ -1,0 +1,6691 @@
+[
+  {
+    "message": "YouGov saying it could be a hung parliament. If that happens after May called this pointless election for her own reasons I don't think I'd ever be able to stop laughing!! Ha, imagine it! How has she possibly done so badly this election??",
+    "id": 99479608,
+    "voteRating": 845,
+    "entities": [
+      {
+        "name": "YouGov",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/034ndv",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/YouGov"
+        },
+        "salience": 0.8011785745620728,
+        "mentions": [
+          {
+            "text": {
+              "content": "YouGov",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "parliament",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "election",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.11470455676317215,
+        "mentions": [
+          {
+            "text": {
+              "content": "election",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          },
+          {
+            "text": {
+              "content": "election",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Ha",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/09ppg",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Hectare"
+        },
+        "salience": 0.060259860008955,
+        "mentions": [
+          {
+            "text": {
+              "content": "Ha",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "reasons",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0238569937646389,
+        "mentions": [
+          {
+            "text": {
+              "content": "reasons",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 1.899999976158142,
+      "score": -0.30000001192092896
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "YouGov saying it could be a hung parliament.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.4000000059604645,
+          "score": -0.4000000059604645
+        }
+      },
+      {
+        "text": {
+          "content": "If that happens after May called this pointless election for her own reasons I don't think I'd ever be able to stop laughing!!",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.6000000238418579,
+          "score": -0.6000000238418579
+        }
+      },
+      {
+        "text": {
+          "content": "Ha, imagine it!",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.20000000298023224,
+          "score": 0.20000000298023224
+        }
+      },
+      {
+        "text": {
+          "content": "How has she possibly done so badly this election??",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.6000000238418579,
+          "score": -0.6000000238418579
+        }
+      }
+    ]
+  },
+  {
+    "message": "Even if JC turned up tonight and the Maybot didn't I bet the papers ( including the Guardian) would be raving on about 12 point leads and May's Brexit speach and find something, anything negative to say about JC's appearance tonight and NOTHING about May being too scared to turn up.",
+    "id": 99480057,
+    "voteRating": 175,
+    "entities": [
+      {
+        "name": "JC",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.15508174896240234,
+        "mentions": [
+          {
+            "text": {
+              "content": "JC",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "JC",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "papers",
+        "type": "WORK_OF_ART",
+        "metadata": {},
+        "salience": 0.1461731195449829,
+        "mentions": [
+          {
+            "text": {
+              "content": "papers",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "something",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.14440396428108215,
+        "mentions": [
+          {
+            "text": {
+              "content": "something",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "point leads",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.10365574806928635,
+        "mentions": [
+          {
+            "text": {
+              "content": "point leads",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "speach",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.09504611045122147,
+        "mentions": [
+          {
+            "text": {
+              "content": "speach",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Maybot",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.08783543854951859,
+        "mentions": [
+          {
+            "text": {
+              "content": "Maybot",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "NOTHING",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.07135700434446335,
+        "mentions": [
+          {
+            "text": {
+              "content": "NOTHING",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "appearance",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.05837903544306755,
+        "mentions": [
+          {
+            "text": {
+              "content": "appearance",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Brexit",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.05667823553085327,
+        "mentions": [
+          {
+            "text": {
+              "content": "Brexit",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Guardian",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/0cnn5",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/The_Guardian"
+        },
+        "salience": 0.04996918886899948,
+        "mentions": [
+          {
+            "text": {
+              "content": "Guardian",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "anything",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.03142039477825165,
+        "mentions": [
+          {
+            "text": {
+              "content": "anything",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 0.20000000298023224,
+      "score": -0.20000000298023224
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "Even if JC turned up tonight and the Maybot didn't I bet the papers ( including the Guardian) would be raving on about 12 point leads and May's Brexit speach and find something, anything negative to say about JC's appearance tonight and NOTHING about May being too scared to turn up.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.20000000298023224,
+          "score": -0.20000000298023224
+        }
+      }
+    ]
+  },
+  {
+    "message": "What happened to the terror network the police said they were closing in on ?",
+    "id": 99479700,
+    "voteRating": 34,
+    "entities": [
+      {
+        "name": "police",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.6652019023895264,
+        "mentions": [
+          {
+            "text": {
+              "content": "police",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "terror network",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.33479809761047363,
+        "mentions": [
+          {
+            "text": {
+              "content": "terror network",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 0.5,
+      "score": -0.5
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "What happened to the terror network the police said they were closing in on ?",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.5,
+          "score": -0.5
+        }
+      }
+    ]
+  },
+  {
+    "message": "Leaked labour immigration plans... game over.",
+    "id": 99480077,
+    "voteRating": 11,
+    "entities": [
+      {
+        "name": "labour immigration plans",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "labour immigration plans",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 0.8999999761581421,
+      "score": -0.8999999761581421
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "Leaked labour immigration plans... game over.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.8999999761581421,
+          "score": -0.8999999761581421
+        }
+      }
+    ]
+  },
+  {
+    "message": "Hang on, are we sure he's not doing it? Why the hell not? Take a gamble man!",
+    "id": 99480075,
+    "voteRating": 3,
+    "entities": [
+      {
+        "name": "gamble man",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.6626025438308716,
+        "mentions": [
+          {
+            "text": {
+              "content": "gamble man",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "hell",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.3373974859714508,
+        "mentions": [
+          {
+            "text": {
+              "content": "hell",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 0.8999999761581421,
+      "score": -0.30000001192092896
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "Hang on, are we sure he's not doing it?",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.4000000059604645,
+          "score": -0.4000000059604645
+        }
+      },
+      {
+        "text": {
+          "content": "Why the hell not?",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.5,
+          "score": -0.5
+        }
+      },
+      {
+        "text": {
+          "content": "Take a gamble man!",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0,
+          "score": 0
+        }
+      }
+    ]
+  },
+  {
+    "message": "Looking at that yougov poll, if correct, May is toast.",
+    "id": 99479719,
+    "voteRating": 251,
+    "entities": [
+      {
+        "name": "yougov poll",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.5187419056892395,
+        "mentions": [
+          {
+            "text": {
+              "content": "yougov poll",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "toast",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.4812580943107605,
+        "mentions": [
+          {
+            "text": {
+              "content": "toast",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 0,
+      "score": 0
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "Looking at that yougov poll, if correct, May is toast.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0,
+          "score": 0
+        }
+      }
+    ]
+  },
+  {
+    "message": "Personally, I hope may throws out more ludicrous insults. It shows her and her cohorts personality, and increases Labour's chances that little bit more. I think she would love Corbyn to throw an insult back, but she doesn't seem to realise that that won't happen. Go Labour!",
+    "id": 99480107,
+    "voteRating": 199,
+    "entities": [
+      {
+        "name": "insults",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.4023455083370209,
+        "mentions": [
+          {
+            "text": {
+              "content": "insults",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Labour",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/01c9x",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Labour_Party_(UK)"
+        },
+        "salience": 0.12301162630319595,
+        "mentions": [
+          {
+            "text": {
+              "content": "Labour",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Labour",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "chances",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.12166771292686462,
+        "mentions": [
+          {
+            "text": {
+              "content": "chances",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "personality",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.120137520134449,
+        "mentions": [
+          {
+            "text": {
+              "content": "personality",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "cohorts",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.120137520134449,
+        "mentions": [
+          {
+            "text": {
+              "content": "cohorts",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Corbyn",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/025m87",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Jeremy_Corbyn"
+        },
+        "salience": 0.07160117477178574,
+        "mentions": [
+          {
+            "text": {
+              "content": "Corbyn",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "insult",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.041098956018686295,
+        "mentions": [
+          {
+            "text": {
+              "content": "insult",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 1.899999976158142,
+      "score": -0.10000000149011612
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "Personally, I hope may throws out more ludicrous insults.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.6000000238418579,
+          "score": -0.6000000238418579
+        }
+      },
+      {
+        "text": {
+          "content": "It shows her and her cohorts personality, and increases Labour's chances that little bit more.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.5,
+          "score": 0.5
+        }
+      },
+      {
+        "text": {
+          "content": "I think she would love Corbyn to throw an insult back, but she doesn't seem to realise that that won't happen.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.5,
+          "score": -0.5
+        }
+      },
+      {
+        "text": {
+          "content": "Go Labour!",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.20000000298023224,
+          "score": 0.20000000298023224
+        }
+      }
+    ]
+  },
+  {
+    "message": "The antisemitic abuse of Emma Barnett is an indication that Labour still have a lot of work to do in that area.",
+    "id": 99480153,
+    "voteRating": 8,
+    "entities": [
+      {
+        "name": "indication",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.7097205519676208,
+        "mentions": [
+          {
+            "text": {
+              "content": "abuse",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          },
+          {
+            "text": {
+              "content": "indication",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "lot",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.08454985916614532,
+        "mentions": [
+          {
+            "text": {
+              "content": "lot",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Emma Barnett",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.07830280810594559,
+        "mentions": [
+          {
+            "text": {
+              "content": "Emma Barnett",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Labour",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/01c9x",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Labour_Party_(UK)"
+        },
+        "salience": 0.054248467087745667,
+        "mentions": [
+          {
+            "text": {
+              "content": "Labour",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "area",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.04469062387943268,
+        "mentions": [
+          {
+            "text": {
+              "content": "area",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "work",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.02848767675459385,
+        "mentions": [
+          {
+            "text": {
+              "content": "work",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 0,
+      "score": 0
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "The antisemitic abuse of Emma Barnett is an indication that Labour still have a lot of work to do in that area.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0,
+          "score": 0
+        }
+      }
+    ]
+  },
+  {
+    "message": "Ne'er cast a clout,Till May be out.",
+    "id": 99480015,
+    "voteRating": 121,
+    "entities": [
+      {
+        "name": "Ne'er",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.546215832233429,
+        "mentions": [
+          {
+            "text": {
+              "content": "Ne'er",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "clout",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.2785674035549164,
+        "mentions": [
+          {
+            "text": {
+              "content": "clout",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Till May",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.17521671950817108,
+        "mentions": [
+          {
+            "text": {
+              "content": "Till May",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 0,
+      "score": 0
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "Ne'er cast a clout,Till May be out.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0,
+          "score": 0
+        }
+      }
+    ]
+  },
+  {
+    "message": "The Ex-pats (should that not be &quot;migrants&quot;?) returning to the UK for NHS treatment will also add to the pressure on housing. https://www.theguardian.com/society/2017/may/31/nhs-faces-500m-a-year-bill-post-brexit-for-returning-retirees-says-thinktank",
+    "id": 99479960,
+    "voteRating": 30,
+    "entities": [
+      {
+        "name": "Ex-pats",
+        "type": "OTHER",
+        "metadata": {
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Expatriate",
+          "mid": "/m/01q4yh"
+        },
+        "salience": 0.3834480345249176,
+        "mentions": [
+          {
+            "text": {
+              "content": "Ex-pats",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "pressure",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.1566597819328308,
+        "mentions": [
+          {
+            "text": {
+              "content": "pressure",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "UK",
+        "type": "LOCATION",
+        "metadata": {
+          "wikipedia_url": "http://en.wikipedia.org/wiki/United_Kingdom",
+          "mid": "/m/07ssc"
+        },
+        "salience": 0.12483793497085571,
+        "mentions": [
+          {
+            "text": {
+              "content": "UK",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "NHS",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "wikipedia_url": "http://en.wikipedia.org/wiki/National_Health_Service",
+          "mid": "/m/047gmkt"
+        },
+        "salience": 0.12483793497085571,
+        "mentions": [
+          {
+            "text": {
+              "content": "NHS",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "housing",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.1093350425362587,
+        "mentions": [
+          {
+            "text": {
+              "content": "housing",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "treatment",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.06959494948387146,
+        "mentions": [
+          {
+            "text": {
+              "content": "treatment",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "https://www.theguardian.com/society/2017/may/31/nhs-faces-500m-a-year-bill-post-brexit-for-returning-retirees-says-thinktank",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.03128631040453911,
+        "mentions": [
+          {
+            "text": {
+              "content": "https://www.theguardian.com/society/2017/may/31/nhs-faces-500m-a-year-bill-post-brexit-for-returning-retirees-says-thinktank",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 0.5,
+      "score": -0.10000000149011612
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "The Ex-pats (should that not be &quot;migrants&quot;?) returning to the UK for NHS treatment will also add to the pressure on housing.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.30000001192092896,
+          "score": -0.30000001192092896
+        }
+      },
+      {
+        "text": {
+          "content": "https://www.theguardian.com/society/2017/may/31/nhs-faces-500m-a-year-bill-post-brexit-for-returning-retirees-says-thinktank",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.10000000149011612,
+          "score": 0.10000000149011612
+        }
+      }
+    ]
+  },
+  {
+    "message": "&quot;Don't you get it? I said there wouldn't be an early election, then called an early electionI said there was no cap on dementia payments, then implemented a capI said there would be no rise in NI contributions, then had a rise in NI contributions  You weren't supposed to take these words literally... For. I. Am. THE IRONY LADY",
+    "id": 99479863,
+    "voteRating": 319,
+    "entities": [
+      {
+        "name": "election",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.20071139931678772,
+        "mentions": [
+          {
+            "text": {
+              "content": "election",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "rise",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.12917177379131317,
+        "mentions": [
+          {
+            "text": {
+              "content": "rise",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "cap",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.11361993849277496,
+        "mentions": [
+          {
+            "text": {
+              "content": "cap",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "contributions",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.10026472806930542,
+        "mentions": [
+          {
+            "text": {
+              "content": "contributions",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "dementia payments",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.09635194391012192,
+        "mentions": [
+          {
+            "text": {
+              "content": "dementia payments",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "words",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.08272755891084671,
+        "mentions": [
+          {
+            "text": {
+              "content": "words",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "electionI",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.06395840644836426,
+        "mentions": [
+          {
+            "text": {
+              "content": "electionI",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "capI",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.05273088440299034,
+        "mentions": [
+          {
+            "text": {
+              "content": "capI",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "NI",
+        "type": "LOCATION",
+        "metadata": {
+          "mid": "/m/01tyyt",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/National_Insurance"
+        },
+        "salience": 0.05024644359946251,
+        "mentions": [
+          {
+            "text": {
+              "content": "NI",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "NI",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "IRONY LADY",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.044915005564689636,
+        "mentions": [
+          {
+            "text": {
+              "content": "IRONY LADY",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "rise",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.032650962471961975,
+        "mentions": [
+          {
+            "text": {
+              "content": "rise",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "contributions",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.032650962471961975,
+        "mentions": [
+          {
+            "text": {
+              "content": "contributions",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 1.7999999523162842,
+      "score": -0.10000000149011612
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "&quot;Don't you get it?",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.5,
+          "score": -0.5
+        }
+      },
+      {
+        "text": {
+          "content": "I said there wouldn't be an early election, then called an early electionI said there was no cap on dementia payments, then implemented a capI said there would be no rise in NI contributions, then had a rise in NI contributions  You weren't supposed to take these words literally...",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.699999988079071,
+          "score": -0.699999988079071
+        }
+      },
+      {
+        "text": {
+          "content": "For.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.10000000149011612,
+          "score": 0.10000000149011612
+        }
+      },
+      {
+        "text": {
+          "content": "I. Am.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.20000000298023224,
+          "score": 0.20000000298023224
+        }
+      },
+      {
+        "text": {
+          "content": "THE IRONY LADY",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.10000000149011612,
+          "score": 0.10000000149011612
+        }
+      }
+    ]
+  },
+  {
+    "message": "Tories in meltdown..... BBC and right wing media in overdrive.... PANIC STATIONS!!!",
+    "id": 99480043,
+    "voteRating": 282,
+    "entities": [
+      {
+        "name": "meltdown",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.4348580241203308,
+        "mentions": [
+          {
+            "text": {
+              "content": "meltdown",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Tories",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/07wpm",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Conservative_Party_(UK)"
+        },
+        "salience": 0.2805708050727844,
+        "mentions": [
+          {
+            "text": {
+              "content": "Tories",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "media",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0663287341594696,
+        "mentions": [
+          {
+            "text": {
+              "content": "media",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "wing",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0663287341594696,
+        "mentions": [
+          {
+            "text": {
+              "content": "wing",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "overdrive",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.060797806829214096,
+        "mentions": [
+          {
+            "text": {
+              "content": "overdrive",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "STATIONS",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.052074793726205826,
+        "mentions": [
+          {
+            "text": {
+              "content": "STATIONS",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "BBC",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/0ncl8zk",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/BBC"
+        },
+        "salience": 0.039041101932525635,
+        "mentions": [
+          {
+            "text": {
+              "content": "BBC",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 0.5,
+      "score": 0.10000000149011612
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "Tories in meltdown.....",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.20000000298023224,
+          "score": 0.20000000298023224
+        }
+      },
+      {
+        "text": {
+          "content": "BBC and right wing media in overdrive....",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.10000000149011612,
+          "score": 0.10000000149011612
+        }
+      },
+      {
+        "text": {
+          "content": "PANIC STATIONS!!!",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.10000000149011612,
+          "score": 0.10000000149011612
+        }
+      }
+    ]
+  },
+  {
+    "message": "Another hung parliament. This brings coalition of chaos into play in the may bot bingo game,",
+    "id": 99480197,
+    "voteRating": 17,
+    "entities": [
+      {
+        "name": "parliament",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.6624823212623596,
+        "mentions": [
+          {
+            "text": {
+              "content": "parliament",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "chaos",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.1039612740278244,
+        "mentions": [
+          {
+            "text": {
+              "content": "chaos",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "play",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.09533354640007019,
+        "mentions": [
+          {
+            "text": {
+              "content": "play",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "coalition",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.08849140256643295,
+        "mentions": [
+          {
+            "text": {
+              "content": "coalition",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "bot bingo game",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.04973144084215164,
+        "mentions": [
+          {
+            "text": {
+              "content": "bot bingo game",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 0.800000011920929,
+      "score": -0.20000000298023224
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "Another hung parliament.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.699999988079071,
+          "score": -0.699999988079071
+        }
+      },
+      {
+        "text": {
+          "content": "This brings coalition of chaos into play in the may bot bingo game,",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.10000000149011612,
+          "score": 0.10000000149011612
+        }
+      }
+    ]
+  },
+  {
+    "message": "You won't see her in the Debating Chamber, Naked or otherwise.",
+    "id": 99479669,
+    "voteRating": 115,
+    "entities": [
+      {
+        "name": "Debating Chamber",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "Debating Chamber",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 0,
+      "score": 0
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "You won't see her in the Debating Chamber, Naked or otherwise.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0,
+          "score": 0
+        }
+      }
+    ]
+  },
+  {
+    "message": "I do wish Corbyn would appear tonight. The more people hear him speak, the more it dispels the Tory myth that he would be a disaster. The truth is the only disaster for the country would be May winning.",
+    "id": 99479782,
+    "voteRating": 514,
+    "entities": [
+      {
+        "name": "Corbyn",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/025m87",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Jeremy_Corbyn"
+        },
+        "salience": 0.8511682748794556,
+        "mentions": [
+          {
+            "text": {
+              "content": "Corbyn",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "people",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.03683237358927727,
+        "mentions": [
+          {
+            "text": {
+              "content": "people",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "myth",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.027943480759859085,
+        "mentions": [
+          {
+            "text": {
+              "content": "myth",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "disaster",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.026480315253138542,
+        "mentions": [
+          {
+            "text": {
+              "content": "disaster",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "country",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.01903012953698635,
+        "mentions": [
+          {
+            "text": {
+              "content": "country",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Tory",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Conservative_Party_(UK)",
+          "mid": "/m/07wpm"
+        },
+        "salience": 0.01656355895102024,
+        "mentions": [
+          {
+            "text": {
+              "content": "Tory",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "disaster",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.012283538468182087,
+        "mentions": [
+          {
+            "text": {
+              "content": "disaster",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "truth",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.00969833042472601,
+        "mentions": [
+          {
+            "text": {
+              "content": "truth",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 0.5,
+      "score": 0.10000000149011612
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "I do wish Corbyn would appear tonight.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.30000001192092896,
+          "score": 0.30000001192092896
+        }
+      },
+      {
+        "text": {
+          "content": "The more people hear him speak, the more it dispels the Tory myth that he would be a disaster.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.10000000149011612,
+          "score": 0.10000000149011612
+        }
+      },
+      {
+        "text": {
+          "content": "The truth is the only disaster for the country would be May winning.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0,
+          "score": 0
+        }
+      }
+    ]
+  },
+  {
+    "message": "Claire, your write-up of the Woman's Hour interview says that Corbyn called the abuse towards the interviewer &quot;unacceptable,&quot; and your hyperlink on the word doesn't add anything more than that - it just goes to the summary article on Corbyn's &quot;mixed day&quot;. &quot;Unacceptable&quot; mischaracterises the strength of his rebuttal and also prevents us from hearing in full what was an important statement - and also one which demonstrates a clear contrast between Corbyn's maturity of approach and Theresa May's approach yesterday. It would surely make more sense for the hyperlink to go to a transcript of Corbyn's actual statement?",
+    "id": 99480130,
+    "voteRating": 162,
+    "entities": [
+      {
+        "name": "Corbyn",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/025m87",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Jeremy_Corbyn"
+        },
+        "salience": 0.20174621045589447,
+        "mentions": [
+          {
+            "text": {
+              "content": "Corbyn",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Corbyn",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Corbyn",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Corbyn",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "hyperlink",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.16915695369243622,
+        "mentions": [
+          {
+            "text": {
+              "content": "hyperlink",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "interview",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.09735509753227234,
+        "mentions": [
+          {
+            "text": {
+              "content": "interview",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "write-up",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.08599841594696045,
+        "mentions": [
+          {
+            "text": {
+              "content": "write-up",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "anything",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.05653674528002739,
+        "mentions": [
+          {
+            "text": {
+              "content": "anything",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Woman's Hour",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/02jdmf",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Woman's_Hour"
+        },
+        "salience": 0.051507048308849335,
+        "mentions": [
+          {
+            "text": {
+              "content": "Woman's Hour",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Claire",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.05023476481437683,
+        "mentions": [
+          {
+            "text": {
+              "content": "Claire",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "statement",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.04151662811636925,
+        "mentions": [
+          {
+            "text": {
+              "content": "statement",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "interviewer",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.037394292652606964,
+        "mentions": [
+          {
+            "text": {
+              "content": "interviewer",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "abuse",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.032907336950302124,
+        "mentions": [
+          {
+            "text": {
+              "content": "abuse",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "summary article",
+        "type": "WORK_OF_ART",
+        "metadata": {},
+        "salience": 0.023086488246917725,
+        "mentions": [
+          {
+            "text": {
+              "content": "summary article",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "day&quot",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.023086488246917725,
+        "mentions": [
+          {
+            "text": {
+              "content": "day&quot",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "word",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.022795362398028374,
+        "mentions": [
+          {
+            "text": {
+              "content": "word",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "&quot",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.020499007776379585,
+        "mentions": [
+          {
+            "text": {
+              "content": "&quot",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "&quot",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "strength",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.01820557750761509,
+        "mentions": [
+          {
+            "text": {
+              "content": "strength",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "rebuttal",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.010126741603016853,
+        "mentions": [
+          {
+            "text": {
+              "content": "rebuttal",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "approach",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.008591561578214169,
+        "mentions": [
+          {
+            "text": {
+              "content": "approach",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "approach",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.008591561578214169,
+        "mentions": [
+          {
+            "text": {
+              "content": "approach",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "maturity",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.007546956185251474,
+        "mentions": [
+          {
+            "text": {
+              "content": "maturity",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Unacceptable&quot",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0065267328172922134,
+        "mentions": [
+          {
+            "text": {
+              "content": "Unacceptable&quot",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "statement",
+        "type": "WORK_OF_ART",
+        "metadata": {},
+        "salience": 0.0058975848369300365,
+        "mentions": [
+          {
+            "text": {
+              "content": "statement",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "transcript",
+        "type": "WORK_OF_ART",
+        "metadata": {},
+        "salience": 0.005179649218916893,
+        "mentions": [
+          {
+            "text": {
+              "content": "transcript",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "hyperlink",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.004683336243033409,
+        "mentions": [
+          {
+            "text": {
+              "content": "hyperlink",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Theresa May",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/01zczs",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Theresa_May"
+        },
+        "salience": 0.004444717895239592,
+        "mentions": [
+          {
+            "text": {
+              "content": "Theresa May",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "contrast",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.00328249903395772,
+        "mentions": [
+          {
+            "text": {
+              "content": "contrast",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "sense",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0031022331677377224,
+        "mentions": [
+          {
+            "text": {
+              "content": "sense",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 1.399999976158142,
+      "score": -0.4000000059604645
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "Claire, your write-up of the Woman's Hour interview says that Corbyn called the abuse towards the interviewer &quot;unacceptable,&quot; and your hyperlink on the word doesn't add anything more than that - it just goes to the summary article on Corbyn's &quot;mixed day&quot;.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.800000011920929,
+          "score": -0.800000011920929
+        }
+      },
+      {
+        "text": {
+          "content": "&quot;Unacceptable&quot; mischaracterises the strength of his rebuttal and also prevents us from hearing in full what was an important statement - and also one which demonstrates a clear contrast between Corbyn's maturity of approach and Theresa May's approach yesterday.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0,
+          "score": 0
+        }
+      },
+      {
+        "text": {
+          "content": "It would surely make more sense for the hyperlink to go to a transcript of Corbyn's actual statement?",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.5,
+          "score": -0.5
+        }
+      }
+    ]
+  },
+  {
+    "message": "http://ukpollingreport.co.uk/blog/archives/9899 This was interesting as it explained why there are such massive differences in the polling numbers that are coming out.  Basically, it's the &quot;likelihood to vote&quot; correction that is tipping the balance in the tories favour in the ICM poll more than the others.  I took too things away from this : 1)you can't trust the polls when you have very different demographics supporting different candidates - we won't have a clue which polling agency has its weighting correct until polling day.  2)given the suggestion is that Corbyn would do rather well on a high turn out perhaps he wasn't as stupid as I thought when I was accusing him of preaching to the converted.",
+    "id": 99480163,
+    "voteRating": 8,
+    "entities": [
+      {
+        "name": "polling numbers",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.3776661157608032,
+        "mentions": [
+          {
+            "text": {
+              "content": "polling numbers",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "differences",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.1543855369091034,
+        "mentions": [
+          {
+            "text": {
+              "content": "differences",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "&quot",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.10464736074209213,
+        "mentions": [
+          {
+            "text": {
+              "content": "&quot",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Corbyn",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/025m87",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Jeremy_Corbyn"
+        },
+        "salience": 0.05864816531538963,
+        "mentions": [
+          {
+            "text": {
+              "content": "Corbyn",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "correction",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.030678043141961098,
+        "mentions": [
+          {
+            "text": {
+              "content": "correction",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "likelihood",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.030678043141961098,
+        "mentions": [
+          {
+            "text": {
+              "content": "likelihood",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "poll",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.030084548518061638,
+        "mentions": [
+          {
+            "text": {
+              "content": "poll",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "polls",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.02772790752351284,
+        "mentions": [
+          {
+            "text": {
+              "content": "polls",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "things",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.021911250427365303,
+        "mentions": [
+          {
+            "text": {
+              "content": "things",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "others",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.02146988920867443,
+        "mentions": [
+          {
+            "text": {
+              "content": "others",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "tories favour",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.021197611466050148,
+        "mentions": [
+          {
+            "text": {
+              "content": "tories favour",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "demographics",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.019533149898052216,
+        "mentions": [
+          {
+            "text": {
+              "content": "demographics",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "candidates",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.01928529515862465,
+        "mentions": [
+          {
+            "text": {
+              "content": "candidates",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "vote&quot",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.018104875460267067,
+        "mentions": [
+          {
+            "text": {
+              "content": "vote&quot",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "balance",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.01684402860701084,
+        "mentions": [
+          {
+            "text": {
+              "content": "balance",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "clue",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.01594463922083378,
+        "mentions": [
+          {
+            "text": {
+              "content": "clue",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "ICM",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/0flnh5",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/ICM_Research"
+        },
+        "salience": 0.01249574963003397,
+        "mentions": [
+          {
+            "text": {
+              "content": "ICM",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "polling agency",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.007481630425900221,
+        "mentions": [
+          {
+            "text": {
+              "content": "polling agency",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "weighting",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0063333879224956036,
+        "mentions": [
+          {
+            "text": {
+              "content": "weighting",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "suggestion",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.004882794339209795,
+        "mentions": [
+          {
+            "text": {
+              "content": "suggestion",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 1.899999976158142,
+      "score": -0.4000000059604645
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "http://ukpollingreport.co.uk/blog/archives/9899 This was interesting as it explained why there are such massive differences in the polling numbers that are coming out.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.10000000149011612,
+          "score": 0.10000000149011612
+        }
+      },
+      {
+        "text": {
+          "content": "Basically, it's the &quot;likelihood to vote&quot; correction that is tipping the balance in the tories favour in the ICM poll more than the others.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.20000000298023224,
+          "score": -0.20000000298023224
+        }
+      },
+      {
+        "text": {
+          "content": "I took too things away from this : 1)you can't trust the polls when you have very different demographics supporting different candidates - we won't have a clue which polling agency has its weighting correct until polling day.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.800000011920929,
+          "score": -0.800000011920929
+        }
+      },
+      {
+        "text": {
+          "content": "2)given the suggestion is that Corbyn would do rather well on a high turn out perhaps he wasn't as stupid as I thought when I was accusing him of preaching to the converted.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.6000000238418579,
+          "score": -0.6000000238418579
+        }
+      }
+    ]
+  },
+  {
+    "message": "As the polls consistently demonstrate a closing of the gap between Labour and the Nasty Party, look out for signs of the nasties falling out with each other and positioning themselves for the recriminations to come - there'll come a point when they start to think that &quot;no majority is better than a bad majority&quot; - watch the descent into chaos and acrimony when that tipping point comes.",
+    "id": 99480156,
+    "voteRating": 63,
+    "entities": [
+      {
+        "name": "each other",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.19886671006679535,
+        "mentions": [
+          {
+            "text": {
+              "content": "each other",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "polls",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.14240945875644684,
+        "mentions": [
+          {
+            "text": {
+              "content": "polls",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "closing",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.14240945875644684,
+        "mentions": [
+          {
+            "text": {
+              "content": "closing",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "gap",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.14240945875644684,
+        "mentions": [
+          {
+            "text": {
+              "content": "gap",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "point",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.04122237116098404,
+        "mentions": [
+          {
+            "text": {
+              "content": "point",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "recriminations",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.03963593766093254,
+        "mentions": [
+          {
+            "text": {
+              "content": "recriminations",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "signs",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.039142780005931854,
+        "mentions": [
+          {
+            "text": {
+              "content": "signs",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "nasties",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.039142780005931854,
+        "mentions": [
+          {
+            "text": {
+              "content": "nasties",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Labour",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/01c9x",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Labour_Party_(UK)"
+        },
+        "salience": 0.033524248749017715,
+        "mentions": [
+          {
+            "text": {
+              "content": "Labour",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Nasty Party",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.033524248749017715,
+        "mentions": [
+          {
+            "text": {
+              "content": "Nasty Party",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "descent",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.03325168043375015,
+        "mentions": [
+          {
+            "text": {
+              "content": "descent",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "majority&quot",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.030887234956026077,
+        "mentions": [
+          {
+            "text": {
+              "content": "majority&quot",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "tipping point",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0301190298050642,
+        "mentions": [
+          {
+            "text": {
+              "content": "tipping point",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "chaos",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.018831653520464897,
+        "mentions": [
+          {
+            "text": {
+              "content": "chaos",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "acrimony",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.018831653520464897,
+        "mentions": [
+          {
+            "text": {
+              "content": "acrimony",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "majority",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.015791308134794235,
+        "mentions": [
+          {
+            "text": {
+              "content": "majority",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 0.6000000238418579,
+      "score": -0.6000000238418579
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "As the polls consistently demonstrate a closing of the gap between Labour and the Nasty Party, look out for signs of the nasties falling out with each other and positioning themselves for the recriminations to come - there'll come a point when they start to think that &quot;no majority is better than a bad majority&quot; - watch the descent into chaos and acrimony when that tipping point comes.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.6000000238418579,
+          "score": -0.6000000238418579
+        }
+      }
+    ]
+  },
+  {
+    "message": "I have to ask this question unfortunately.....Why has the Guardian been a cheerleader for Theresa Mayhem?Is it because she is a woman or has the Guardian gone right-wing?Her claims and no debate about Brexit (she called this election for)have gone unchallenged. We've had stronger opposition from the editor of the Evening Standard who has been headlining / frontpage about allthe claims on Brexit from his own Tory party on... Immigration cap of tens of thousands:   Yesterday's frontpage... &quot; Migration: The question Tories won't answer. The Evening standard has challenged every member of the cabinet to name an industry or sector that they believed should take fewer overseas workers.... None identified a business or sector that should recruit fewer foreign staff.....&quot; Silence of the Ministers: Philip Hammond, Chancellor Boris Johnson, Foreign David Davis, Brexit Amber Rudd, Home office Jeremy Hunt, Health Michael Fallon, Defence Andrea Leadsom, Environment Chris Grayling, Transport Damian Green, Pensions Sajid Javid, Local government Justine Greening, Education Karen Bradley, Culture    &quot;None can say where migrants cuts will fall&quot;    The claim that &quot;No Brexit deal being better&quot; was torn to piecesas it doesn't stand up to scrutiny for example the £ has already droped 15%-20%making most of us poorer.Not knowing the cost of Brexit or of a &quot;No deal&quot; without a government impact assesment to families and businesses...but how can Theresa Mayhem claim to know what a Bad deal is.... And on the Tory campaign that many so-called journalists including in the Guardian toldus was the Maybot's brilliant strategy of parking on Labour's lawn...    Evening standard comment: &quot;The Conservative campaign has meandered from an abortive attempt to launch a personality cult around Mrs May to the self-inflicted wound of the most disastrous manifesto in recent history and, after the atrocity in Manchester, shrill attacks on Mr Corbyn’s appeasement of terrorism. &quot;           Meanwhile the Guardian has headlines about Jeremy Corbyn minorlapse on child care costs which were already detailed in the sameBBC R4 an hour earlier by a member of the shadow cabinet on theToday programme. So the BBC already had the costs on record.         ",
+    "id": 99479320,
+    "voteRating": 1405,
+    "entities": [
+      {
+        "name": "Guardian",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "wikipedia_url": "http://en.wikipedia.org/wiki/The_Guardian",
+          "mid": "/m/0cnn5"
+        },
+        "salience": 0.30530014634132385,
+        "mentions": [
+          {
+            "text": {
+              "content": "Guardian",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Guardian",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Theresa Mayhem",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.1178181990981102,
+        "mentions": [
+          {
+            "text": {
+              "content": "Theresa Mayhem",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "woman",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          },
+          {
+            "text": {
+              "content": "Theresa Mayhem",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Guardian",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.05861981585621834,
+        "mentions": [
+          {
+            "text": {
+              "content": "Guardian",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "claims",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.05468510836362839,
+        "mentions": [
+          {
+            "text": {
+              "content": "claims",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Brexit",
+        "type": "LOCATION",
+        "metadata": {
+          "mid": "/g/11bwfmmbjb",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/United_Kingdom_withdrawal_from_the_European_Union"
+        },
+        "salience": 0.05090772360563278,
+        "mentions": [
+          {
+            "text": {
+              "content": "Brexit",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Brexit",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Brexit",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Brexit",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Brexit",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "&quot",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.04091706499457359,
+        "mentions": [
+          {
+            "text": {
+              "content": "&quot",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          },
+          {
+            "text": {
+              "content": "deal",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          },
+          {
+            "text": {
+              "content": "&quot",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "question",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.025323282927274704,
+        "mentions": [
+          {
+            "text": {
+              "content": "question",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "right-wing",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.022268980741500854,
+        "mentions": [
+          {
+            "text": {
+              "content": "right-wing",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "debate",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.022268980741500854,
+        "mentions": [
+          {
+            "text": {
+              "content": "debate",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "election",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.022268980741500854,
+        "mentions": [
+          {
+            "text": {
+              "content": "election",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "cheerleader",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.017492344602942467,
+        "mentions": [
+          {
+            "text": {
+              "content": "cheerleader",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "industry",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.014961734414100647,
+        "mentions": [
+          {
+            "text": {
+              "content": "industry",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Conservative",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/07wpm",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Conservative_Party_(UK)"
+        },
+        "salience": 0.014606018550693989,
+        "mentions": [
+          {
+            "text": {
+              "content": "Tory",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Tory",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Tories",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Conservative",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "business",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.012989982031285763,
+        "mentions": [
+          {
+            "text": {
+              "content": "business",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "editor",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.009661420248448849,
+        "mentions": [
+          {
+            "text": {
+              "content": "editor",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "David Davis",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/01zg17",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/David_Davis_(British_politician)"
+        },
+        "salience": 0.006971239577978849,
+        "mentions": [
+          {
+            "text": {
+              "content": "David Davis",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Foreign",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Andrea Leadsom",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/0bx_9mq",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Andrea_Leadsom"
+        },
+        "salience": 0.006123106926679611,
+        "mentions": [
+          {
+            "text": {
+              "content": "Andrea Leadsom",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Defence",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Boris Johnson",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/0h508",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Boris_Johnson"
+        },
+        "salience": 0.006045227404683828,
+        "mentions": [
+          {
+            "text": {
+              "content": "Boris Johnson",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Chancellor",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Philip Hammond",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/02825t",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Philip_Hammond"
+        },
+        "salience": 0.006045227404683828,
+        "mentions": [
+          {
+            "text": {
+              "content": "staff",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          },
+          {
+            "text": {
+              "content": "Philip Hammond",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "claims",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.004979106597602367,
+        "mentions": [
+          {
+            "text": {
+              "content": "claims",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "frontpage",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0045173619873821735,
+        "mentions": [
+          {
+            "text": {
+              "content": "frontpage",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "&quot",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0045173619873821735,
+        "mentions": [
+          {
+            "text": {
+              "content": "&quot",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Migration",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0045173619873821735,
+        "mentions": [
+          {
+            "text": {
+              "content": "Migration",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "question",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0045173619873821735,
+        "mentions": [
+          {
+            "text": {
+              "content": "question",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "child care costs",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.004042063374072313,
+        "mentions": [
+          {
+            "text": {
+              "content": "child care costs",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Jeremy Corbyn",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/025m87",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Jeremy_Corbyn"
+        },
+        "salience": 0.004006402567028999,
+        "mentions": [
+          {
+            "text": {
+              "content": "Corbyn",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Mr",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          },
+          {
+            "text": {
+              "content": "Jeremy Corbyn",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "party",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.003987806383520365,
+        "mentions": [
+          {
+            "text": {
+              "content": "party",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "opposition",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.003987806383520365,
+        "mentions": [
+          {
+            "text": {
+              "content": "opposition",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "tens of thousands",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.003967139404267073,
+        "mentions": [
+          {
+            "text": {
+              "content": "tens of thousands",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Immigration cap",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.003967139404267073,
+        "mentions": [
+          {
+            "text": {
+              "content": "Immigration cap",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "workers",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.0034327846951782703,
+        "mentions": [
+          {
+            "text": {
+              "content": "workers",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "&quot",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0033753658644855022,
+        "mentions": [
+          {
+            "text": {
+              "content": "&quot",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "most",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.003251881804317236,
+        "mentions": [
+          {
+            "text": {
+              "content": "most",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "cost",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0031423994805663824,
+        "mentions": [
+          {
+            "text": {
+              "content": "cost",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "claim",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0031423994805663824,
+        "mentions": [
+          {
+            "text": {
+              "content": "claim",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "deal&quot",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0031423994805663824,
+        "mentions": [
+          {
+            "text": {
+              "content": "deal&quot",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "government",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.003134671598672867,
+        "mentions": [
+          {
+            "text": {
+              "content": "government",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "sector",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0031036052387207747,
+        "mentions": [
+          {
+            "text": {
+              "content": "sector",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "cabinet",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0031036052387207747,
+        "mentions": [
+          {
+            "text": {
+              "content": "cabinet",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "member",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.0031036052387207747,
+        "mentions": [
+          {
+            "text": {
+              "content": "member",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Evening standard",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0031036052387207747,
+        "mentions": [
+          {
+            "text": {
+              "content": "Evening standard",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "&quot",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0030947388149797916,
+        "mentions": [
+          {
+            "text": {
+              "content": "&quot",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "sector",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0030947388149797916,
+        "mentions": [
+          {
+            "text": {
+              "content": "sector",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "None",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0030947388149797916,
+        "mentions": [
+          {
+            "text": {
+              "content": "None",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "migrants cuts",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.003049966413527727,
+        "mentions": [
+          {
+            "text": {
+              "content": "migrants cuts",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Education",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.00275261583738029,
+        "mentions": [
+          {
+            "text": {
+              "content": "Education",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Transport",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.00275261583738029,
+        "mentions": [
+          {
+            "text": {
+              "content": "Transport",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Home office",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.00275261583738029,
+        "mentions": [
+          {
+            "text": {
+              "content": "Home office",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Health",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.00275261583738029,
+        "mentions": [
+          {
+            "text": {
+              "content": "Health",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Silence",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.002717542927712202,
+        "mentions": [
+          {
+            "text": {
+              "content": "Silence",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Ministers",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.002717542927712202,
+        "mentions": [
+          {
+            "text": {
+              "content": "Ministers",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Evening Standard",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/0g2t6",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/London_Evening_Standard"
+        },
+        "salience": 0.0026726974174380302,
+        "mentions": [
+          {
+            "text": {
+              "content": "Evening Standard",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "example",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0025162817910313606,
+        "mentions": [
+          {
+            "text": {
+              "content": "example",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "scrutiny",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0025162817910313606,
+        "mentions": [
+          {
+            "text": {
+              "content": "scrutiny",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "piecesas",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0025162817910313606,
+        "mentions": [
+          {
+            "text": {
+              "content": "piecesas",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "personality cult",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.002384328283369541,
+        "mentions": [
+          {
+            "text": {
+              "content": "personality cult",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "campaign",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.002331895288079977,
+        "mentions": [
+          {
+            "text": {
+              "content": "campaign",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Culture &quot",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0021727837156504393,
+        "mentions": [
+          {
+            "text": {
+              "content": "Culture    &quot",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "lawn",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.0018690224969759583,
+        "mentions": [
+          {
+            "text": {
+              "content": "lawn",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "attempt",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0018653299193829298,
+        "mentions": [
+          {
+            "text": {
+              "content": "attempt",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Mrs",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.0018653299193829298,
+        "mentions": [
+          {
+            "text": {
+              "content": "Mrs",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "wound",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0018653299193829298,
+        "mentions": [
+          {
+            "text": {
+              "content": "wound",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "comment",
+        "type": "WORK_OF_ART",
+        "metadata": {},
+        "salience": 0.0018653299193829298,
+        "mentions": [
+          {
+            "text": {
+              "content": "comment",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "attacks",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.0018653299193829298,
+        "mentions": [
+          {
+            "text": {
+              "content": "attacks",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "manifesto",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0018653299193829298,
+        "mentions": [
+          {
+            "text": {
+              "content": "manifesto",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "history",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0018653299193829298,
+        "mentions": [
+          {
+            "text": {
+              "content": "history",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "atrocity",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.0018653299193829298,
+        "mentions": [
+          {
+            "text": {
+              "content": "atrocity",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Justine Greening",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/060nmv",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Justine_Greening"
+        },
+        "salience": 0.001844450132921338,
+        "mentions": [
+          {
+            "text": {
+              "content": "Justine Greening",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Damian Green",
+        "type": "PERSON",
+        "metadata": {
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Damian_Green",
+          "mid": "/m/025vl0"
+        },
+        "salience": 0.001844450132921338,
+        "mentions": [
+          {
+            "text": {
+              "content": "Damian Green",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "campaign",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.001798048266209662,
+        "mentions": [
+          {
+            "text": {
+              "content": "campaign",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Karen Bradley",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/0by17vg",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Karen_Bradley"
+        },
+        "salience": 0.0016195116331800818,
+        "mentions": [
+          {
+            "text": {
+              "content": "Karen Bradley",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Pensions Sajid Javid",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.0016195116331800818,
+        "mentions": [
+          {
+            "text": {
+              "content": "Pensions Sajid Javid",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Environment Chris Grayling",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.0016195116331800818,
+        "mentions": [
+          {
+            "text": {
+              "content": "Environment Chris Grayling",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Michael Fallon",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/026j7g",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Michael_Fallon"
+        },
+        "salience": 0.0016195116331800818,
+        "mentions": [
+          {
+            "text": {
+              "content": "Michael Fallon",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Amber Rudd",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/0by1rrx",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Amber_Rudd"
+        },
+        "salience": 0.0016195116331800818,
+        "mentions": [
+          {
+            "text": {
+              "content": "Amber Rudd",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Jeremy Hunt",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/062t7p",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Jeremy_Hunt"
+        },
+        "salience": 0.0016195116331800818,
+        "mentions": [
+          {
+            "text": {
+              "content": "Jeremy Hunt",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "costs",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0016007402446120977,
+        "mentions": [
+          {
+            "text": {
+              "content": "costs",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "better&quot",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0014803868252784014,
+        "mentions": [
+          {
+            "text": {
+              "content": "better&quot",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "shadow cabinet",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.0014618330169469118,
+        "mentions": [
+          {
+            "text": {
+              "content": "shadow cabinet",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "member",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.0014618330169469118,
+        "mentions": [
+          {
+            "text": {
+              "content": "member",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "appeasement",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.0012857256224378943,
+        "mentions": [
+          {
+            "text": {
+              "content": "appeasement",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "terrorism",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0012857256224378943,
+        "mentions": [
+          {
+            "text": {
+              "content": "terrorism",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "programme",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.001283524208702147,
+        "mentions": [
+          {
+            "text": {
+              "content": "programme",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "headlines",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.001283524208702147,
+        "mentions": [
+          {
+            "text": {
+              "content": "headlines",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "record",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0012815856607630849,
+        "mentions": [
+          {
+            "text": {
+              "content": "record",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "deal",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0011853326577693224,
+        "mentions": [
+          {
+            "text": {
+              "content": "deal",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "None",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0011524501023814082,
+        "mentions": [
+          {
+            "text": {
+              "content": "None",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Manchester",
+        "type": "LOCATION",
+        "metadata": {
+          "mid": "/m/052bw",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Manchester"
+        },
+        "salience": 0.0010972600430250168,
+        "mentions": [
+          {
+            "text": {
+              "content": "Manchester",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "journalists",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.0009713603649288416,
+        "mentions": [
+          {
+            "text": {
+              "content": "journalists",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "businesses",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.0009265320841223001,
+        "mentions": [
+          {
+            "text": {
+              "content": "businesses",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "strategy",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0008543474250473082,
+        "mentions": [
+          {
+            "text": {
+              "content": "strategy",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "families",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.0008134889649227262,
+        "mentions": [
+          {
+            "text": {
+              "content": "families",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "government impact",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0008134889649227262,
+        "mentions": [
+          {
+            "text": {
+              "content": "government impact",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "parking",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0008115873206406832,
+        "mentions": [
+          {
+            "text": {
+              "content": "parking",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "BBC",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/0ncl8zk",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/BBC"
+        },
+        "salience": 0.0008037496590986848,
+        "mentions": [
+          {
+            "text": {
+              "content": "BBC",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "sameBBC R4",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0007549228030256927,
+        "mentions": [
+          {
+            "text": {
+              "content": "sameBBC R4",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "theToday",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0007549228030256927,
+        "mentions": [
+          {
+            "text": {
+              "content": "theToday",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Labour",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Labour_Party_(UK)",
+          "mid": "/m/01c9x"
+        },
+        "salience": 0.00047729702782817185,
+        "mentions": [
+          {
+            "text": {
+              "content": "Labour",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Maybot",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.00047729702782817185,
+        "mentions": [
+          {
+            "text": {
+              "content": "Maybot",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Guardian toldus",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.00047729702782817185,
+        "mentions": [
+          {
+            "text": {
+              "content": "Guardian toldus",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 4.199999809265137,
+      "score": -0.10000000149011612
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "I have to ask this question unfortunately.....Why has the Guardian been a cheerleader for Theresa Mayhem?Is it because she is a woman or has the Guardian gone right-wing?Her claims and no debate about Brexit (she called this election for)have gone unchallenged.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.6000000238418579,
+          "score": -0.6000000238418579
+        }
+      },
+      {
+        "text": {
+          "content": "We've had stronger opposition from the editor of the Evening Standard who has been headlining / frontpage about allthe claims on Brexit from his own Tory party on...",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0,
+          "score": 0
+        }
+      },
+      {
+        "text": {
+          "content": "Immigration cap of tens of thousands:   Yesterday's frontpage... &quot; Migration: The question Tories won't answer.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.800000011920929,
+          "score": -0.800000011920929
+        }
+      },
+      {
+        "text": {
+          "content": "The Evening standard has challenged every member of the cabinet to name an industry or sector that they believed should take fewer overseas workers....",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.20000000298023224,
+          "score": 0.20000000298023224
+        }
+      },
+      {
+        "text": {
+          "content": "None identified a business or sector that should recruit fewer foreign staff.....&quot; Silence of the Ministers: Philip Hammond, Chancellor Boris Johnson, Foreign David Davis, Brexit Amber Rudd, Home office Jeremy Hunt, Health Michael Fallon, Defence Andrea Leadsom, Environment Chris Grayling, Transport Damian Green, Pensions Sajid Javid, Local government Justine Greening, Education Karen Bradley, Culture    &quot;None can say where migrants cuts will fall&quot;    The claim that &quot;No Brexit deal being better&quot; was torn to piecesas it doesn't stand up to scrutiny for example the £ has already droped 15%-20%making most of us poorer.Not knowing the cost of Brexit or of a &quot;No deal&quot; without a government impact assesment to families and businesses...but how can Theresa Mayhem claim to know what a Bad deal is....",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.20000000298023224,
+          "score": -0.20000000298023224
+        }
+      },
+      {
+        "text": {
+          "content": "And on the Tory campaign that many so-called journalists including in the Guardian toldus was the Maybot's brilliant strategy of parking on Labour's lawn...",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.800000011920929,
+          "score": 0.800000011920929
+        }
+      },
+      {
+        "text": {
+          "content": "Evening standard comment: &quot;The Conservative campaign has meandered from an abortive attempt to launch a personality cult around Mrs May to the self-inflicted wound of the most disastrous manifesto in recent history and, after the atrocity in Manchester, shrill attacks on Mr Corbyn’s appeasement of terrorism.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.800000011920929,
+          "score": -0.800000011920929
+        }
+      },
+      {
+        "text": {
+          "content": "&quot;           Meanwhile the Guardian has headlines about Jeremy Corbyn minorlapse on child care costs which were already detailed in the sameBBC R4 an hour earlier by a member of the shadow cabinet on theToday programme.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.10000000149011612,
+          "score": -0.10000000149011612
+        }
+      },
+      {
+        "text": {
+          "content": "So the BBC already had the costs on record.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.20000000298023224,
+          "score": 0.20000000298023224
+        }
+      }
+    ]
+  },
+  {
+    "message": "Theresa May's masters must know by now that the puppet they chosed was the wrong one . That is to be understood of course as in the post referendum chaos created by golden boy Cameron decisions had to be taken fast. Andrea Leadsom was fastly discarded as her Christian/right wing Consevratism can strangelly enough be bothersome to the &quot;pro buisness&quot; community responsible for taking the decisions .Far right wing as well as the far left could sometimes be less flexible on buisness avancement (for different reasons of course), certainly less then centre right/centre left who has been accommodating corporations demandes with an admirable zeal and devotion.Theresa May must have looked the perfect choice with the Thatcher undertones and typically British cold and from far dignified demeanor, but time was probably too short to check on her media credentials so none was aware of her misfortunate lack of charisma and wooden speach.But there is a backlash payment for being too greedy and fast. Instead of giving the loyal media the time to finish with Corbyn who after two years of permenent warfare was in definite need of hiatus they rushed GE elections as May rather honestly admited would free her hands to pass number of reforms of which the British voters got the taste with the unfortunate manifesto. Programs that would have freed millions of homes for the real estate market, further pushed NHS in private hands etc all very exiting for big buisness.The problem as seen as from today is that the news media is not the only manner to receive or give information and Labour has made rather good use of the social media lately, no doubt inspired by the campaign on Sanders whose downfall came from the endless tarnishing from the liberal newsvenues such as NYT, but rise and bloom was entirelly played on the social medias.So instead of nice and cosy GE with Theresa May assured gain, UK has a surprising rise from the ashes for Labour with Corbyn on the wheel.I do not know how the elections will end as lets not forget that May advance is very serious, but if Corbyn win it will be a huge shock for the Tory donors, aka the pro buisness comunity aka corporations who has been betting on the wrong horse many times both geographically and historiaclly, but never experienced yet one of the strongest economies in the world being out of their full control. Brexit game over, UK was considered to be back in the tender mother care of US after years of straying with EU with the kind help of Murdoch and Dacre, but a Labour governément might actually insist on the &quot;strange&quot; idea of both financial and political independence(slight) from both EU and US which is basically unheard of. If Corbyn wins, he will have to give in somewhere as he has no any chance to stay in power if the media go full strenght after him and missrepresent any of the governement acts for the following years. But if wisely adviced he might arive to pass reforms that will stop the further degradation of working/middle class. It is a historical moment and a very interesting one. The game has been ridged for as long as humanity exist, but sometimes the masses strike back and gain teritories considered long lost. I hope that this will be one of this moments as the situation in UK is becoming unbearable for any normal person and any change for better should be more then welcome.",
+    "id": 99479658,
+    "voteRating": 245,
+    "entities": [
+      {
+        "name": "Andrea Leadsom",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/0bx_9mq",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Andrea_Leadsom"
+        },
+        "salience": 0.14134730398654938,
+        "mentions": [
+          {
+            "text": {
+              "content": "Andrea Leadsom",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "British",
+        "type": "LOCATION",
+        "metadata": {
+          "mid": "/m/07ssc",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/United_Kingdom"
+        },
+        "salience": 0.08325928449630737,
+        "mentions": [
+          {
+            "text": {
+              "content": "British",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "British",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "UK",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "UK",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "UK",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Theresa May",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/01zczs",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Theresa_May"
+        },
+        "salience": 0.08018215745687485,
+        "mentions": [
+          {
+            "text": {
+              "content": "Theresa May",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Theresa May",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "devotion.",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          },
+          {
+            "text": {
+              "content": "Theresa May",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Corbyn",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/025m87",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Jeremy_Corbyn"
+        },
+        "salience": 0.0615689717233181,
+        "mentions": [
+          {
+            "text": {
+              "content": "Corbyn",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Corbyn",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Corbyn",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Corbyn",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "decisions",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.05931698903441429,
+        "mentions": [
+          {
+            "text": {
+              "content": "decisions",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          },
+          {
+            "text": {
+              "content": "decisions",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "masters",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.03956058993935585,
+        "mentions": [
+          {
+            "text": {
+              "content": "masters",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "puppet",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.03350190073251724,
+        "mentions": [
+          {
+            "text": {
+              "content": "puppet",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Cameron",
+        "type": "PERSON",
+        "metadata": {
+          "wikipedia_url": "http://en.wikipedia.org/wiki/David_Cameron",
+          "mid": "/m/0266lb"
+        },
+        "salience": 0.029771404340863228,
+        "mentions": [
+          {
+            "text": {
+              "content": "Cameron",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "boy",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Consevratism",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0296183954924345,
+        "mentions": [
+          {
+            "text": {
+              "content": "Consevratism",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "wing",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "elections",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.021060947328805923,
+        "mentions": [
+          {
+            "text": {
+              "content": "elections",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          },
+          {
+            "text": {
+              "content": "elections",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "community",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.016399316489696503,
+        "mentions": [
+          {
+            "text": {
+              "content": "community",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "course",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.015295191667973995,
+        "mentions": [
+          {
+            "text": {
+              "content": "course",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "&quot",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.015216181054711342,
+        "mentions": [
+          {
+            "text": {
+              "content": "&quot",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "wing",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.015216181054711342,
+        "mentions": [
+          {
+            "text": {
+              "content": "wing",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "post referendum chaos",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.013437088578939438,
+        "mentions": [
+          {
+            "text": {
+              "content": "post referendum chaos",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "NHS",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "wikipedia_url": "http://en.wikipedia.org/wiki/National_Health_Service",
+          "mid": "/m/047gmkt"
+        },
+        "salience": 0.010653160512447357,
+        "mentions": [
+          {
+            "text": {
+              "content": "NHS",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Sanders",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/01_gbv",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Bernie_Sanders"
+        },
+        "salience": 0.010384011082351208,
+        "mentions": [
+          {
+            "text": {
+              "content": "Sanders",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "reforms",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.009829357266426086,
+        "mentions": [
+          {
+            "text": {
+              "content": "reforms",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Programs",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.008608602918684483,
+        "mentions": [
+          {
+            "text": {
+              "content": "Programs",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Christian",
+        "type": "PERSON",
+        "metadata": {
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Christian",
+          "mid": "/m/04t_mf"
+        },
+        "salience": 0.007875395938754082,
+        "mentions": [
+          {
+            "text": {
+              "content": "Christian",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "reforms",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0074456254951655865,
+        "mentions": [
+          {
+            "text": {
+              "content": "reforms",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "moment",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.007154133636504412,
+        "mentions": [
+          {
+            "text": {
+              "content": "moment",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "corporations",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.006292747333645821,
+        "mentions": [
+          {
+            "text": {
+              "content": "corporations",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "news media",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.0060299974866211414,
+        "mentions": [
+          {
+            "text": {
+              "content": "news media",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "none",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0059678624384105206,
+        "mentions": [
+          {
+            "text": {
+              "content": "none",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "centre",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.005679574329406023,
+        "mentions": [
+          {
+            "text": {
+              "content": "centre",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "course",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.005679574329406023,
+        "mentions": [
+          {
+            "text": {
+              "content": "course",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Labour",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/01c9x",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Labour_Party_(UK)"
+        },
+        "salience": 0.005240849684923887,
+        "mentions": [
+          {
+            "text": {
+              "content": "Labour",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Labour",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "Labour",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "social media",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.005170364398509264,
+        "mentions": [
+          {
+            "text": {
+              "content": "social media",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "left",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.004987543914467096,
+        "mentions": [
+          {
+            "text": {
+              "content": "left",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "zeal",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.004987543914467096,
+        "mentions": [
+          {
+            "text": {
+              "content": "zeal",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "media credentials",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.004987543914467096,
+        "mentions": [
+          {
+            "text": {
+              "content": "media credentials",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "choice",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.004987543914467096,
+        "mentions": [
+          {
+            "text": {
+              "content": "choice",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "undertones",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.004987543914467096,
+        "mentions": [
+          {
+            "text": {
+              "content": "undertones",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "buisness avancement",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.004987543914467096,
+        "mentions": [
+          {
+            "text": {
+              "content": "buisness avancement",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "demeanor",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.004987543914467096,
+        "mentions": [
+          {
+            "text": {
+              "content": "demeanor",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "reasons",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.004987543914467096,
+        "mentions": [
+          {
+            "text": {
+              "content": "reasons",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "left",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.004987543914467096,
+        "mentions": [
+          {
+            "text": {
+              "content": "left",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "cold",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.004987543914467096,
+        "mentions": [
+          {
+            "text": {
+              "content": "cold",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "manner",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.004588122945278883,
+        "mentions": [
+          {
+            "text": {
+              "content": "manner",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "voters",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.004260552581399679,
+        "mentions": [
+          {
+            "text": {
+              "content": "voters",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "shock",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.004088046960532665,
+        "mentions": [
+          {
+            "text": {
+              "content": "shock",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "problem",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.004035957157611847,
+        "mentions": [
+          {
+            "text": {
+              "content": "problem",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "backlash payment",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0040107183158397675,
+        "mentions": [
+          {
+            "text": {
+              "content": "backlash payment",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "downfall",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.003984530456364155,
+        "mentions": [
+          {
+            "text": {
+              "content": "downfall",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "media",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.003961206879466772,
+        "mentions": [
+          {
+            "text": {
+              "content": "media",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "newsvenues",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.003940656315535307,
+        "mentions": [
+          {
+            "text": {
+              "content": "newsvenues",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "hands",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.003940656315535307,
+        "mentions": [
+          {
+            "text": {
+              "content": "hands",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "hands",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0039015912916511297,
+        "mentions": [
+          {
+            "text": {
+              "content": "hands",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "number",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0037961320485919714,
+        "mentions": [
+          {
+            "text": {
+              "content": "number",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "GE",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/03bnb",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/General_Electric"
+        },
+        "salience": 0.003509019734337926,
+        "mentions": [
+          {
+            "text": {
+              "content": "GE",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "GE",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "tarnishing",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0034602468367666006,
+        "mentions": [
+          {
+            "text": {
+              "content": "tarnishing",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "real estate market",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0034602468367666006,
+        "mentions": [
+          {
+            "text": {
+              "content": "real estate market",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "homes",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.0034602468367666006,
+        "mentions": [
+          {
+            "text": {
+              "content": "homes",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "millions",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.0034602468367666006,
+        "mentions": [
+          {
+            "text": {
+              "content": "millions",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "campaign",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.0034602468367666006,
+        "mentions": [
+          {
+            "text": {
+              "content": "campaign",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "use",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0034602468367666006,
+        "mentions": [
+          {
+            "text": {
+              "content": "use",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "doubt",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0034602468367666006,
+        "mentions": [
+          {
+            "text": {
+              "content": "doubt",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "charisma",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.003438603598624468,
+        "mentions": [
+          {
+            "text": {
+              "content": "charisma",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "lack",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.003438603598624468,
+        "mentions": [
+          {
+            "text": {
+              "content": "lack",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "manifesto",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.003425938542932272,
+        "mentions": [
+          {
+            "text": {
+              "content": "manifesto",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "hiatus",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.003425938542932272,
+        "mentions": [
+          {
+            "text": {
+              "content": "hiatus",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "need",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.003425938542932272,
+        "mentions": [
+          {
+            "text": {
+              "content": "need",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "permenent warfare",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.003425938542932272,
+        "mentions": [
+          {
+            "text": {
+              "content": "permenent warfare",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "donors",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.0031630895100533962,
+        "mentions": [
+          {
+            "text": {
+              "content": "donors",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "wheel.",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0031630895100533962,
+        "mentions": [
+          {
+            "text": {
+              "content": "wheel.",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "ashes",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0031630895100533962,
+        "mentions": [
+          {
+            "text": {
+              "content": "ashes",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "rise",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0031630895100533962,
+        "mentions": [
+          {
+            "text": {
+              "content": "rise",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "bloom",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.0031630895100533962,
+        "mentions": [
+          {
+            "text": {
+              "content": "bloom",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "gain",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0031630895100533962,
+        "mentions": [
+          {
+            "text": {
+              "content": "gain",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "any",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.003145721973851323,
+        "mentions": [
+          {
+            "text": {
+              "content": "any",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Thatcher",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/03f5vvx",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Margaret_Thatcher"
+        },
+        "salience": 0.0029347881209105253,
+        "mentions": [
+          {
+            "text": {
+              "content": "Thatcher",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "somewhere",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.0029284656047821045,
+        "mentions": [
+          {
+            "text": {
+              "content": "somewhere",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "media",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0027816330548375845,
+        "mentions": [
+          {
+            "text": {
+              "content": "media",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "medias.So",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.002781132236123085,
+        "mentions": [
+          {
+            "text": {
+              "content": "medias.So",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "information",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0026772008277475834,
+        "mentions": [
+          {
+            "text": {
+              "content": "information",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "&quot",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.00267563178204,
+        "mentions": [
+          {
+            "text": {
+              "content": "&quot",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "chance",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.002670345129445195,
+        "mentions": [
+          {
+            "text": {
+              "content": "chance",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "US",
+        "type": "LOCATION",
+        "metadata": {
+          "mid": "/m/09c7w0",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/United_States"
+        },
+        "salience": 0.0024063095916062593,
+        "mentions": [
+          {
+            "text": {
+              "content": "US",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "US",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "EU",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "wikipedia_url": "http://en.wikipedia.org/wiki/European_Union",
+          "mid": "/m/0_6t_z8"
+        },
+        "salience": 0.0024063095916062593,
+        "mentions": [
+          {
+            "text": {
+              "content": "EU",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "EU",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "one",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.0023653616663068533,
+        "mentions": [
+          {
+            "text": {
+              "content": "one",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "independence",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0023493152111768723,
+        "mentions": [
+          {
+            "text": {
+              "content": "independence",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "idea",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0023493152111768723,
+        "mentions": [
+          {
+            "text": {
+              "content": "idea",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "strange&quot",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0023493152111768723,
+        "mentions": [
+          {
+            "text": {
+              "content": "strange&quot",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "governement acts",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0023446728009730577,
+        "mentions": [
+          {
+            "text": {
+              "content": "governement acts",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "strenght",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0023446728009730577,
+        "mentions": [
+          {
+            "text": {
+              "content": "strenght",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "power",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0023446728009730577,
+        "mentions": [
+          {
+            "text": {
+              "content": "power",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "economies",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0021010003983974457,
+        "mentions": [
+          {
+            "text": {
+              "content": "economies",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "taste",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0020506810396909714,
+        "mentions": [
+          {
+            "text": {
+              "content": "taste",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Tory",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/07wpm",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Conservative_Party_(UK)"
+        },
+        "salience": 0.001860744203440845,
+        "mentions": [
+          {
+            "text": {
+              "content": "Tory",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "NYT",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "wikipedia_url": "http://en.wikipedia.org/wiki/The_New_York_Times",
+          "mid": "/m/07k2d"
+        },
+        "salience": 0.001860744203440845,
+        "mentions": [
+          {
+            "text": {
+              "content": "NYT",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "game",
+        "type": "WORK_OF_ART",
+        "metadata": {},
+        "salience": 0.0018321657553315163,
+        "mentions": [
+          {
+            "text": {
+              "content": "game",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "change",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0018299260409548879,
+        "mentions": [
+          {
+            "text": {
+              "content": "change",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "moments",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0018299260409548879,
+        "mentions": [
+          {
+            "text": {
+              "content": "moments",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "class",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0016132728196680546,
+        "mentions": [
+          {
+            "text": {
+              "content": "class",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "degradation",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0016132728196680546,
+        "mentions": [
+          {
+            "text": {
+              "content": "degradation",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teritories",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0016086589312180877,
+        "mentions": [
+          {
+            "text": {
+              "content": "teritories",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "humanity",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.0016086589312180877,
+        "mentions": [
+          {
+            "text": {
+              "content": "humanity",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "person",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.0016066923271864653,
+        "mentions": [
+          {
+            "text": {
+              "content": "person",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "situation",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0016066923271864653,
+        "mentions": [
+          {
+            "text": {
+              "content": "situation",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "masses",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.001588143757544458,
+        "mentions": [
+          {
+            "text": {
+              "content": "masses",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "one",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0011645285412669182,
+        "mentions": [
+          {
+            "text": {
+              "content": "one",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "game",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.0011618061689659953,
+        "mentions": [
+          {
+            "text": {
+              "content": "game",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.001022437820211053,
+        "mentions": [
+          {
+            "text": {
+              "content": "world",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "control",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.001022437820211053,
+        "mentions": [
+          {
+            "text": {
+              "content": "control",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "buisness comunity aka corporations",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.001022437820211053,
+        "mentions": [
+          {
+            "text": {
+              "content": "buisness comunity aka corporations",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "horse",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.001022437820211053,
+        "mentions": [
+          {
+            "text": {
+              "content": "horse",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "historiaclly",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.001022437820211053,
+        "mentions": [
+          {
+            "text": {
+              "content": "historiaclly",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "tender mother care",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0010200475808233023,
+        "mentions": [
+          {
+            "text": {
+              "content": "tender mother care",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "help",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0010200475808233023,
+        "mentions": [
+          {
+            "text": {
+              "content": "help",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "kind",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0010200475808233023,
+        "mentions": [
+          {
+            "text": {
+              "content": "kind",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "governément",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.000799255445599556,
+        "mentions": [
+          {
+            "text": {
+              "content": "governément",
+              "beginOffset": -1
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Murdoch",
+        "type": "LOCATION",
+        "metadata": {
+          "mid": "/m/06hrk",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/Rupert_Murdoch"
+        },
+        "salience": 0.0005998749984428287,
+        "mentions": [
+          {
+            "text": {
+              "content": "Murdoch",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Brexit",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/g/11bwfmmbjb",
+          "wikipedia_url": "http://en.wikipedia.org/wiki/United_Kingdom_withdrawal_from_the_European_Union"
+        },
+        "salience": 0.0005998749984428287,
+        "mentions": [
+          {
+            "text": {
+              "content": "Brexit",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Dacre",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.0005998749984428287,
+        "mentions": [
+          {
+            "text": {
+              "content": "Dacre",
+              "beginOffset": -1
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "sentiment": {
+      "magnitude": 4.099999904632568,
+      "score": -0.10000000149011612
+    },
+    "sentences": [
+      {
+        "text": {
+          "content": "Theresa May's masters must know by now that the puppet they chosed was the wrong one .",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.4000000059604645,
+          "score": -0.4000000059604645
+        }
+      },
+      {
+        "text": {
+          "content": "That is to be understood of course as in the post referendum chaos created by golden boy Cameron decisions had to be taken fast.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.20000000298023224,
+          "score": 0.20000000298023224
+        }
+      },
+      {
+        "text": {
+          "content": "Andrea Leadsom was fastly discarded as her Christian/right wing Consevratism can strangelly enough be bothersome to the &quot;pro buisness&quot; community responsible for taking the decisions .Far right wing as well as the far left could sometimes be less flexible on buisness avancement (for different reasons of course), certainly less then centre right/centre left who has been accommodating corporations demandes with an admirable zeal and devotion.Theresa May must have looked the perfect choice with the Thatcher undertones and typically British cold and from far dignified demeanor, but time was probably too short to check on her media credentials so none was aware of her misfortunate lack of charisma and wooden speach.But there is a backlash payment for being too greedy and fast.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.30000001192092896,
+          "score": -0.30000001192092896
+        }
+      },
+      {
+        "text": {
+          "content": "Instead of giving the loyal media the time to finish with Corbyn who after two years of permenent warfare was in definite need of hiatus they rushed GE elections as May rather honestly admited would free her hands to pass number of reforms of which the British voters got the taste with the unfortunate manifesto.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.699999988079071,
+          "score": -0.699999988079071
+        }
+      },
+      {
+        "text": {
+          "content": "Programs that would have freed millions of homes for the real estate market, further pushed NHS in private hands etc all very exiting for big buisness.The problem as seen as from today is that the news media is not the only manner to receive or give information and Labour has made rather good use of the social media lately, no doubt inspired by the campaign on Sanders whose downfall came from the endless tarnishing from the liberal newsvenues such as NYT, but rise and bloom was entirelly played on the social medias.So instead of nice and cosy GE with Theresa May assured gain, UK has a surprising rise from the ashes for Labour with Corbyn on the wheel.I do not know how the elections will end as lets not forget that May advance is very serious, but if Corbyn win it will be a huge shock for the Tory donors, aka the pro buisness comunity aka corporations who has been betting on the wrong horse many times both geographically and historiaclly, but never experienced yet one of the strongest economies in the world being out of their full control.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0,
+          "score": 0
+        }
+      },
+      {
+        "text": {
+          "content": "Brexit game over, UK was considered to be back in the tender mother care of US after years of straying with EU with the kind help of Murdoch and Dacre, but a Labour governément might actually insist on the &quot;strange&quot; idea of both financial and political independence(slight) from both EU and US which is basically unheard of.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0,
+          "score": 0
+        }
+      },
+      {
+        "text": {
+          "content": "If Corbyn wins, he will have to give in somewhere as he has no any chance to stay in power if the media go full strenght after him and missrepresent any of the governement acts for the following years.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.30000001192092896,
+          "score": -0.30000001192092896
+        }
+      },
+      {
+        "text": {
+          "content": "But if wisely adviced he might arive to pass reforms that will stop the further degradation of working/middle class.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.4000000059604645,
+          "score": -0.4000000059604645
+        }
+      },
+      {
+        "text": {
+          "content": "It is a historical moment and a very interesting one.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.5,
+          "score": 0.5
+        }
+      },
+      {
+        "text": {
+          "content": "The game has been ridged for as long as humanity exist, but sometimes the masses strike back and gain teritories considered long lost.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.10000000149011612,
+          "score": 0.10000000149011612
+        }
+      },
+      {
+        "text": {
+          "content": "I hope that this will be one of this moments as the situation in UK is becoming unbearable for any normal person and any change for better should be more then welcome.",
+          "beginOffset": -1
+        },
+        "sentiment": {
+          "magnitude": 0.699999988079071,
+          "score": -0.699999988079071
+        }
+      }
+    ]
+  }
+]
