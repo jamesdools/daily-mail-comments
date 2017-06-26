@@ -1,6 +1,6 @@
 'use strict';
 
-const analysis = require('./src/analysis');
+const analysis = require('./lib/analysis');
 const dmComments = require('./test/fixtures/annotated-dm-comments-4493596');
 const guardianComments = require('./test/fixtures/annotated-guardian-comments-6h3xa');
 
