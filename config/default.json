@@ -1,6 +1,9 @@
 {
   "gcp": {
-    "projectId": "YOUR-PROJECT-ID",
-    "keyFilename": "YOUR-KEYFILE-PATH"
+    "projectId": "MY-PROJECT-ID",
+    "keyFilename": "MY-KEYFILE-PATH"
+  },
+  "guardian": {
+    "key": "MY-GUARDIAN-API-KEY"
   }
 }

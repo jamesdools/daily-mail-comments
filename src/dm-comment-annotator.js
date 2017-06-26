@@ -1,7 +1,7 @@
 'use strict';
 
 const fs = require('fs');
-const languageClient = require('../src/language-client');
+const languageClient = require('./language-client');
 
 function mapComment(comment, annotations) {
   return {
@@ -68,8 +68,3 @@ module.exports = (comments) => {
     .then(serialiseAnnotations)
     .then(writeFixture);
 };
-
-
-const dailyMailComments = require('../test/fixtures/dm-comments-4493596');
-module.exports(comments).catch((err) => console.log(err));
-

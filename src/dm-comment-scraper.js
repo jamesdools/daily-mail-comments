@@ -1,7 +1,7 @@
 'use strict';
 
 const fs = require('fs');
-const client = require('../src/client');
+const client = require('./client');
 
 function getArticleId(url) {
   const startPoint = url.indexOf('/article-');
@@ -31,6 +31,3 @@ module.exports = (url) => {
     fs.writeFileSync(`test/fixtures/dm-comments-${res.payload.assetId}.json`, JSON.stringify(comments));
   });
 };
-
-const url = 'http://www.dailymail.co.uk/news/article-4493596/Labour-s-manifesto-Britain-1970s.html';
-module.exports(url);

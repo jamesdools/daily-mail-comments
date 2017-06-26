@@ -3,7 +3,7 @@
 const fs = require('fs');
 const async = require('async');
 const config = require('config');
-const client = require('../src/client');
+const client = require('./client');
 
 function getContentUrl(url) {
   return url.replace('www.theguardian.com', 'content.guardianapis.com');
@@ -35,10 +35,10 @@ function getComments(id, cb) {
 
 module.exports = (url) => {
   async.waterfall([
-    function(done) {
+    function (done) {
       callGuardianApi(url, done);
     },
-    function(res, done) {
+    function (res, done) {
       const discussionId = getDiscussionId(res.response.content.fields.shortUrl);
       getComments(discussionId, done);
     }
@@ -49,6 +49,3 @@ module.exports = (url) => {
     fs.writeFileSync(`test/fixtures/guardian-comments-${id}.json`, JSON.stringify(results.discussion.comments));
   });
 };
-
-const url = 'https://www.theguardian.com/politics/live/2017/may/31/general-election-2017-may-corbyn-bbc-debate-campaign-personal-politics-live';
-module.exports(url);

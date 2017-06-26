@@ -15,15 +15,14 @@ module.exports.generateWordcloud = (data) => {
           salience: entity.salience,
           count: 1
         });
-      }
-      else {
+      } else {
         _.find(wordCloud, {name: entity.name}).count++;
       }
     });
   });
 
   return _.sortBy(wordCloud, 'count').reverse();
-}
+};
 
 module.exports.lowestRatedComments = (data) => {
   const orderedData = _.sortBy(data, (comment) => {
@@ -31,7 +30,7 @@ module.exports.lowestRatedComments = (data) => {
   });
 
   return orderedData.slice(0, 10);
-}
+};
 
 module.exports.highestRatedComments = (data) => {
   const orderedData = _.sortBy(data, (comment) => {
@@ -39,7 +38,7 @@ module.exports.highestRatedComments = (data) => {
   }).reverse();
 
   return orderedData.slice(0, 10);
-}
+};
 
 module.exports.overallSentiment = (data) => {
   const MAX = 2;
@@ -47,7 +46,7 @@ module.exports.overallSentiment = (data) => {
   const overallSentiment = {
     magnitude: 0,
     score: 0
-  }
+  };
 
   data.forEach((comment) => {
     const magnitude = (comment.sentiment.magnitude > MAX) ? MAX : comment.sentiment.magnitude;
@@ -60,26 +59,14 @@ module.exports.overallSentiment = (data) => {
   return overallSentiment;
 };
 
-// function maxSentimentMagnitude(data) {
-//   return _.maxBy(data, (comment) => {
-//     return comment.sentiment.magnitude;
-//   });
-// }
-//
-// function normaliseSentimentMagnitude(data) {
-//   const max = maxSentimentMagnitude()
-//
-// }
-//
-
 function voteScore(voteRating, voteCount) {
   if (voteCount > 0) return (voteRating / voteCount) * 100; //TODO: handle +/-
 }
 
 module.exports.lowestSentimentComments = (data) => {
   return _.sortBy(data, 'sentiment.score').slice(0, 10);
-}
+};
 
 module.exports.highestSentimentComments = (data) => {
   return _.sortBy(data, 'sentiment.score').reverse().slice(0, 10);
-}
+};

@@ -1,10 +1,11 @@
 'use strict';
 
 const fs = require('fs');
-const languageClient = require('../src/language-client');
+const languageClient = require('./language-client');
 
+// Guardian comments with HTML tags - we want to remove these before analysis
 function stripTags(body) {
-  return body.replace(/<\/?[^>]+(>|$)/g, "");
+  return body.replace(/<\/?[^>]+(>|$)/g, '');
 }
 
 function mapComment(comment, annotations) {
@@ -16,11 +17,11 @@ function mapComment(comment, annotations) {
     // assetHeadline: comment.assetHeadline,
     voteRating: comment.numRecommends,
     // voteCount: comment.voteCount,
-    // replies: mapComment() : TODO: replies
+    // replies: mapComment() //TODO: replies
     entities: annotations.entities,
     sentiment: annotations.sentiment,
     sentences: annotations.sentences
-  }
+  };
 }
 
 module.exports = (comments) => {
@@ -44,8 +45,3 @@ module.exports = (comments) => {
     });
   });
 };
-
-const comments = require('../test/fixtures/guardian-comments-6h3xa');
-const testComments = comments.slice(0, 20);
-
-module.exports(testComments);
