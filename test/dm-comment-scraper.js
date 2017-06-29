@@ -43,7 +43,7 @@ describe('DM API', () => {
   });
 
   it('saves comment list to file', (done) => {
-      const writer = sandbox.stub(fs, 'writeFileSync');
+      const writer = sandbox.stub(fs, 'writeFile').yields(null, 'swaggie');
 
       nock('http://www.dailymail.co.uk')
       .get('/reader-comments/p/asset/readcomments/4493596?max=50')

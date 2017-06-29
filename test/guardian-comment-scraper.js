@@ -57,7 +57,7 @@ describe('Guardian API', () => {
   });
 
   it('saves comment list to file', (done) => {
-    const writer = sandbox.stub(fs, 'writeFileSync');
+    const writer = sandbox.stub(fs, 'writeFile').yields(null, "swaggie");
 
     nock('https://content.guardianapis.com')
     .get('/politics/live/2017/may/31/general-election-2017-may-corbyn-bbc-debate-campaign-personal-politics-live')
