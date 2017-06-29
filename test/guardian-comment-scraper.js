@@ -14,26 +14,26 @@ describe('Guardian API', () => {
     sandbox.restore();
   });
 
+  const contentApiResponse = {
+    response: {
+      content: {
+        fields: {
+          shortUrl: "https://gu.com/p/6h3xa"
+        }
+      }
+    }
+  };
+
+  const discussionApiResponse = {
+    results: {
+      discussion: {
+        key: 'id=6h3xa',
+        comments: ['comment1', 'comment2']
+      }
+    }
+  };
+
   it('returns a list of comments when given valid article URL', (done) => {
-    const contentApiResponse = {
-      response: {
-        content: {
-          fields: {
-            shortUrl: "https://gu.com/p/6h3xa"
-          }
-        }
-      }
-    };
-
-    const discussionApiResponse = {
-      results: {
-        discussion: {
-          key: 'id=6h3xa',
-          comments: ['comment1', 'comment2']
-        }
-      }
-    };
-
     nock('https://content.guardianapis.com')
     .get('/politics/live/2017/may/31/general-election-2017-may-corbyn-bbc-debate-campaign-personal-politics-live')
     .query({
@@ -52,6 +52,30 @@ describe('Guardian API', () => {
       assert.ifError(err);
       assert.equal(res[0], 'comment1');
       assert.equal(res[1], 'comment2');
+      done();
+    });
+  });
+
+  it('saves comment list to file', (done) => {
+    const writer = sandbox.stub(fs, 'writeFileSync');
+
+    nock('https://content.guardianapis.com')
+    .get('/politics/live/2017/may/31/general-election-2017-may-corbyn-bbc-debate-campaign-personal-politics-live')
+    .query({
+      'api-key': config.get('guardian.key'),
+      'show-fields': 'shortUrl'
+    })
+    .reply(200, contentApiResponse);
+
+    nock('https://discussion.guardianapis.com')
+    .get('/discussion-api/discussion/p/6h3xa?pageSize=100')
+    .reply(200, discussionApiResponse);
+
+    const url = 'https://www.theguardian.com/politics/live/2017/may/31/general-election-2017-may-corbyn-bbc-debate-campaign-personal-politics-live';
+
+    scraper.save(url, (err, res) => {
+      assert.ifError(err);
+      sinon.assert.called(writer);
       done();
     });
   });
