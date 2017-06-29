@@ -14,6 +14,8 @@ describe('Guardian API', () => {
     sandbox.restore();
   });
 
+  const url = 'https://www.theguardian.com/politics/live/2017/may/31/general-election-2017-may-corbyn-bbc-debate-campaign-personal-politics-live';
+
   const contentApiResponse = {
     response: {
       content: {
@@ -46,7 +48,6 @@ describe('Guardian API', () => {
     .get('/discussion-api/discussion/p/6h3xa?pageSize=100')
     .reply(200, discussionApiResponse);
 
-    const url = 'https://www.theguardian.com/politics/live/2017/may/31/general-election-2017-may-corbyn-bbc-debate-campaign-personal-politics-live';
 
     scraper.scrape(url, (err, res) => {
       assert.ifError(err);
@@ -70,8 +71,6 @@ describe('Guardian API', () => {
     nock('https://discussion.guardianapis.com')
     .get('/discussion-api/discussion/p/6h3xa?pageSize=100')
     .reply(200, discussionApiResponse);
-
-    const url = 'https://www.theguardian.com/politics/live/2017/may/31/general-election-2017-may-corbyn-bbc-debate-campaign-personal-politics-live';
 
     scraper.save(url, (err, res) => {
       assert.ifError(err);

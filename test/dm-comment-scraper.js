@@ -13,9 +13,11 @@ describe('DM API', () => {
     sandbox.restore();
   });
 
+  const HOST = 'http://www.dailymail.co.uk';
+  const url = 'http://www.dailymail.co.uk/news/article-4493596/Labour-s-manifesto-Britain-1970s.html';
+
   it('errors when an invalid URL is given', () => {
     const url = 'http://spaghetti.policy';
-
     scraper.scrape(url, (err, res) => {
       assert.ok(err);
       assert.equal(err.message, 'Invalid article URL');
@@ -23,16 +25,12 @@ describe('DM API', () => {
   });
 
   it('returns a list of comments when given valid article URL', (done) => {
-    nock('http://www.dailymail.co.uk')
-    .get('/reader-comments/p/asset/readcomments/4493596?max=50')
-    .reply(200, {
+    nock(HOST).get('/reader-comments/p/asset/readcomments/4493596?max=50').reply(200, {
       payload: {
         assetId: "4493596",
         page: ['comment1', 'comment2']
       }
     });
-
-    const url = 'http://www.dailymail.co.uk/news/article-4493596/Labour-s-manifesto-Britain-1970s.html';
 
     scraper.scrape(url, (err, res) => {
       assert.ifError(err);
@@ -45,16 +43,12 @@ describe('DM API', () => {
   it('saves comment list to file', (done) => {
       const writer = sandbox.stub(fs, 'writeFile').yields(null, 'swaggie');
 
-      nock('http://www.dailymail.co.uk')
-      .get('/reader-comments/p/asset/readcomments/4493596?max=50')
-      .reply(200, {
+      nock(HOST).get('/reader-comments/p/asset/readcomments/4493596?max=50').reply(200, {
         payload: {
           assetId: "4493596",
           page: ['comment1', 'comment2']
         }
       });
-
-      const url = 'http://www.dailymail.co.uk/news/article-4493596/Labour-s-manifesto-Britain-1970s.html';
 
       scraper.save(url, (err, res) => {
         assert.ifError(err);

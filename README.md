@@ -1,3 +1,3 @@
 # news-comments
 
-I have no idea what I'm doing
+📰☁️ Applying natural language processing to news article comments
