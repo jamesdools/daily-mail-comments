@@ -11,7 +11,7 @@ const sandbox = sinon.sandbox.create();
 describe('DM API', () => {
   afterEach(() => {
     sandbox.restore();
-   });
+  });
 
   it('errors when an invalid URL is given', () => {
     const url = 'http://spaghetti.policy';
